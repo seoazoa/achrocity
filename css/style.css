@@ -35,6 +35,7 @@ body {
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
+
 }
 .bt-link-more{
   display: inline-block;
@@ -217,3 +218,322 @@ body {
 } */
 /* weekly-best */
 /* 상단 */
+=======
+  background-color: #eee;
+}
+/* section */
+
+/* 서아파트 */
+/* 중간배너 */
+.centerbanner .inner {
+  width: 1200px;
+}
+.sw-centerbanner a {
+  width: 1200px;
+  height: 100px;
+  display: block;
+  overflow: hidden;
+}
+.sw-centerbanner img {
+  width: 1200px;
+  height: 100%;
+}
+/* 네비게이션 */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sw-centerbanner-pg {
+  display: none;
+}
+/*리뷰 */
+.review .inner {
+  width: 1200px;
+}
+.review-top {
+  width: 1200px;
+  height: 100px;
+}
+.review-top h1 {
+  line-height: 100px;
+  font-size: 30px;
+}
+.review-contents {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviewsection {
+  width: 230px;
+  height: 140px;
+  padding: 15px;
+  background-color: #fff;
+}
+.review1,
+.review2,
+.review3,
+.review4,
+.review5,
+.review6,
+.review7,
+.review8,
+.review9,
+.review10 {
+  width: 230px;
+  height: 370px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+}
+.review2,
+.review3,
+.review4,
+.review5,
+.review7,
+.review8,
+.review9,
+.review10 {
+  margin-left: 12px;
+}
+.clothes {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  /* margin-bottom: 5px; */
+}
+.grad {
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.grad1 {
+  font-size: 11px;
+  color: #000000;
+}
+.gradreviewname {
+  float: left;
+}
+.review1 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review1 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.reviewname {
+  font-size: 11px;
+  color: #9b9b9b;
+  padding-left: 10px;
+}
+.reviewname1 {
+  font-size: 11px;
+  color: #000000;
+}
+
+.star {
+  font-size: 12px;
+  color: #ff8a00;
+}
+.star1 {
+  padding-left: 5px;
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.review1 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.reviewsection .reviewsubstance {
+  font-size: 14px;
+  color: #000000;
+  max-height: 70px;
+  height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 17px;
+}
+.name {
+  font-size: 12px;
+  color: #9b9b9b;
+}
+.day {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #000000;
+}
+.review1 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰2 */
+.review2 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review2 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review2 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review2 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰3 */
+.review3 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review3 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review3 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review3 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰4 */
+.review4 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review4 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review4 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review4 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰5 */
+.review5 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review5 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review5 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review5 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰6 */
+.review6 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review6 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review6 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review6 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰7 */
+.review7 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review7 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review7 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review7 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰8 */
+.review8 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review8 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review8 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review8 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰9 */
+.review9 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review9 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review9 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review9 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+/* 리뷰10 */
+.review10 ul li:nth-child(2) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.review10 ul li:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+}
+.review10 ul li:nth-child(4) {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.review10 ul li:nth-child(6) {
+  padding-top: 4px;
+}
+
+/* 버튼 */
+.section-bottom {
+  text-align: center;
+}
+.reviewmore {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  background-color: #595959;
+}
+
