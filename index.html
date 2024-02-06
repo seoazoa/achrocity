@@ -119,12 +119,33 @@
       name="twitter:description"
       content="시즈니룩 코디를 위한 쇼핑몰, 아크로시티"
     />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Link Swiper's CSS -->
     <link
-      <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
@@ -140,30 +161,107 @@
     <title>AchroCity</title>
   </head>
   <body>
-    <div class="topbtn">
+    <!-- <div class="topbtn">
       <button class="advice">advice</button>
       <button class="gotop">gotop</button>
       <button class="gobottom">gobottom</button>
-    </div>
+    </div> -->
+    <!-- 전체 레이아웃 -->
     <div id="wrap">
-      <div class="topbanner">
-        <div class="inner"></div>
-      </div>
+      <!-- 상단 -->
+      <div class="topbanner"></div>
       <header class="header">
         <div class="inner">
+          <!-- 상단 왼쪽 -->
           <div class="header-left">
-            <div class="logo"></div>
-            <div class="nav"></div>
+            <a href="#" alt="아크로시티" class="logo"></a>
+            <div class="header-menu">
+              <ul class="menu-list">
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">당일발송</a></li>
+                <li><a href="#">SALE</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="header-right"></div>
+          <!-- 상단 오른쪽 -->
+          <div class="header-right">
+            <div class="search">
+              <form action="#" class="search-input">
+                <input type="text" class="search-text" maxlength="100" />
+              </form>
+              <input type="button" class="search-bt" />
+            </div>
+            <ul class="mypage">
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </li>
+              <li>
+                <a href="#"><span>LOGIN</span></a>
+              </li>
+              <li>
+                <a href="#"><span>MYPAGE</span></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
-      <section class="top-swiper">
-        <div class="inner"></div>
-      </section>
+      <!-- swiper 적용 -->
+      <div class="top-slide">
+        <div class="inner">
+          <button class="sw-bt sw-prev">이전</button>
+          <button class="sw-bt sw-next">다음</button>
+          <!-- top slide -->
+          <div class="swiper sw-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="images/topSwiper1.jpg" alt="탑베너1"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="images/topSwiper2.jpg" alt="탑베너2"
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"
+                  ><img src="images/topSwiper3.jpg" alt="탑베너3"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div class="sw-top-control">
+            <div class="pagination sw-top-pg"></div>
+          </div>
+        </div>
+      </div>
       <section class="weekly-best">
-        <div class="inner"></div>
+        <div class="inner">
+        <div class="section-top">
+          <h2>WEEKLY BEST</h2>
+        </div>
+        <div class="products">
+          <li class="best1">
+            <a href="#"><img src="images/best1.jpg" alt="베스트1">
+              <p class="color"></p>
+              <p class="product-name">아이린 원숄더 머플러 티셔츠 세트</p>
+              <p class="product-price">27,200원</p>
+              <p><i class="fa-solid fa-bag-shopping"></i></p>
+            </a></li>
+        </div>
+        </div>
       </section>
+
+
+
+
+
       <section class="styling-guide">
         <div class="inner"></div>
       </section>
