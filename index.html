@@ -570,22 +570,83 @@
                 </div>
               </div>
           </div>
-          <div class="section-bottom">
-          <a href="#"><button class="reviewmore">more</button></a>
-        </div>
+          <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
         </div>
       </section>
       <section class="focuson">
-        <div class="inner"></div>
+        <div class="inner">
+          <div class="focuson-left">
+            <ul>
+              <li><span>FOCUS ON</span></li>
+              <li><span>시즈니룩<br>꿀팁전수</span></li>
+              <li><span># 무채색 겨울 코디</span></li>
+            </ul>
+          </div>
+          <div class="focuson-video">
+            <a href="#" title="재생버튼">
+                <img id="video-image" src="images/videoimg/videoimg.png" alt="">
+                <iframe id="video-iframe" width="900" height="500" src="https://www.youtube.com/embed/nv7RQlqcFic" frameborder="0" style="display:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+        </div>
+        </div>
+      <script>
+      document.querySelector(".focuson-video a").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("video-image").style.display = 'none';
+    var iframe = document.getElementById("video-iframe");
+    iframe.style.display = 'block';
+    iframe.src += "?autoplay=1";
+
+    // 부모 요소에 클래스를 추가하여 ::after 요소를 숨깁니다.
+    this.closest('.focuson-video').classList.add('hide-after');
+});
+
+</script>
       </section>
       <section class="instagram">
-        <div class="inner"></div>
+        <div class="inner">
+          <div class="instagram-top">
+            <h1>INSTAGRAM</h1>
+            <span><i class="fa-brands fa-instagram"></i></span> <span>AchroCity_</span>
+          </div>
+          <div class="instagram-contents">
+            <ul>
+              <li><a href="#"><img src="images/instagram/insta1.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta2.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta3.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta4.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta5.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta6.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta7.png" alt=""></a></li>
+              <li><a href="#"><img src="images/instagram/insta8.png" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
+        </div>
       </section>
       <footer class="footer">
-        <div class="inner">
-          <div class="footer-top"></div>
-          <div class="footer-bottom"></div>
-        </div>
+          <div class="footer-top">
+            <div class="aboutattrangs">
+              <ul>
+                <li><span>ABOUT ATTEANGES</span></li>
+                <li><span>상호명 (주)아크로시티</span></li>
+                <li><span>대표 김그린</span></li>
+                <li><span>사업자등록번호 123-456-678</span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            <div class="bankinfo"></div>
+            <div class="cscenter"></div>
+            <div class="social"></div>
+            <div class="return/exchange"></div>
+          </div>
+          <div class="footer-bottom">
+            <div class="ft-logo"></div>
+            <div class="copyright"></div>
+            <div class="mobile"></div>
+          </div>
       </footer>
     </div>
   </body>
