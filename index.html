@@ -144,29 +144,47 @@
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/normalize.css" />
+      <!-- xeicon -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <!-- AOS scc적용 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- js -->
     <script src="js/html5shiv.js"></script>
     <!-- <script src="js/prefixfree.min.js"></script> -->
     <script src="js/respond.min.js"></script>
+    <!-- AOS js적용 -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <title>AchroCity</title>
   </head>
   <body>
-    <!-- <div class="topbtn">
-      <button class="advice">advice</button>
-      <button class="gotop">gotop</button>
-      <button class="gobottom">gobottom</button>
-    </div> -->
+    <!-- pop-up 창 -->
+    <div class="pop-up" id="pop-up">
+      <img src="images/popUp.png" alt="팝업창">
+      <!-- <button onclick="closePopup()"><i class="fa-solid fa-xmark"></i></button> -->
+      <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <!-- top button -->
+    <div class="top-button">
+      <a href="#" class="chat-btn">
+        <img src="images/chat-bt.png" alt="chat">
+      </a>
+      <a href="#" class="top-btn" id="top-btn">
+        <img src="images/top-bt.png" alt="top-btn">
+      </a>
+      <a href="#" class="down-btn" id="down-btn">
+        <img src="images/down-bt.png" alt="down-btn">
+      </a>
+    </div>
     <!-- 전체 레이아웃 -->
     <div id="wrap">
       <!-- 상단 -->
@@ -363,18 +381,18 @@
                 </div>
               </div>
             </li>
-            <div class="styling2">
+            <li class="styling2">
               <a href="#"><img src="images/guide1.jpg" alt="가이드2"></a>
-            </div>
-            <div class="styling3">
+            </li>
+            <li class="styling3">
               <a href="#"><img src="images/guide2.jpg" alt="가이드3"></a>
-            </div>
-            <div class="styling4">
+            </li>
+            <li class="styling4">
               <a href="#"><img src="images/guide3.jpg" alt="가이드4"></a>
-            </div>
-            <div class="styling5">
+            </li>
+            <li class="styling5">
               <a href="#"><img src="images/guide4.jpg" alt="가이드5"></a>
-            </div>
+            </li>
           </div>
           <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
         </div>
