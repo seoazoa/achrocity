@@ -1,4 +1,29 @@
 @charset "utf-8";
-@media all and (max-width: 1200px){
-    
+@media all and (max-width: 1240px) {
+  .header .inner {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .header-menu {
+  }
+  .header-left {
+    gap: 40px;
+  }
+  .header-left .header-menu .menu-list{
+    gap: 15px;
+  }
+  .header-right {
+    width: 580px;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 30px;
+    gap: 0;
+  }
 }
