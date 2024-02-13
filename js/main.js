@@ -30,32 +30,41 @@ window.onload = function () {
     });
   });
   // 스크롤 시 헤더 고정, 탑 베너 사라짐
-  // window.addEventListener("scroll", function(){
-  //   var header = document.querySelector(".header");
-  //   var topBanner = document.querySelector(".topbanner")
-  //   if (window.scrollY > topBanner.offsetHeight) {
-  //     header.classList.add("fixed");
-  //     topBanner.style.display = "none";
-  //   }
-  //   else{
-  //     header.classList.remove('fixed');
-  //     topBanner.style.display = 'block';
-  //   }
-  // })
-  window.addEventListener("scroll", function() {
+  window.addEventListener("scroll", function () {
     var header = document.querySelector(".header");
     var topBanner = document.querySelector(".topbanner");
-    
     if (window.scrollY > topBanner.offsetHeight) {
       header.classList.add("fixed");
-      topBanner.style.display = "none";
-      document.body.style.paddingTop = header.offsetHeight + 100 + "px";
+      // topBanner.style.display = "none";
+      topBanner.style.display = "opacity:0";
     } else {
       header.classList.remove("fixed");
-      topBanner.style.display = "block";
+      // topBanner.style.display = "block";
+      topBanner.style.display = "opacity:1";
       document.body.style.paddingTop = "0";
     }
   });
+  // 호버 했을때 서브메뉴 보이게 하기
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   var menuItems = document.querySelectorAll(".shop-list, .sale-list");
+  //   menuItems.forEach(function(item) {
+  //     var submenu = item.querySelector("ul");
+  //     if (submenu) {
+  //       item.addEventListener("mouseenter", function() {
+  //         submenu.style.display = "block";
+  //       });
+  //       item.addEventListener("mouseleave", function(event) {
+  //         var relatedTarget = event.relatedTarget;
+  //         if (!submenu.contains(relatedTarget)) {
+  //           submenu.style.display = "none";
+  //         }
+  //       });
+  //       submenu.addEventListener("mouseleave", function() {
+  //         submenu.style.display = "none";
+  //       });
+  //     }
+  //   });
+  // });
   //  <!-- top swiper -->
   var swiper = new Swiper(".sw-top", {
     spaceBetween: 30,
