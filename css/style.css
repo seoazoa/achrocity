@@ -991,7 +991,7 @@ body {
   height: 86px;
   background: url("../images/kv-movie.png") no-repeat center;
   position: absolute;
-  top: 45%;
+  top: 42%;
   left: 59%;
 }
 .focuson-video.hide-after a::after {
