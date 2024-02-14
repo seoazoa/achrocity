@@ -419,8 +419,11 @@ body {
 .icon i {
   font-size: 2.5rem;
 }
-.icon i:nth-child(1) {
+.xi-cart-o {
   padding-right: 12px;
+}
+.icon {
+  cursor: pointer;
 }
 /* best1 */
 .best1 {
@@ -651,6 +654,17 @@ body {
   right: 30px;
   align-items: center;
   gap: 3px 0;
+  cursor: pointer;
+}
+.xi-heart-o {
+  display: inline;
+  padding-right: 0;
+}
+.xi-heart {
+  display: none;
+}
+#weekly-heart-full {
+  /* color: red; */
 }
 .heart i {
   font-size: 2.5rem;
@@ -712,14 +726,14 @@ body {
   width: 1200px;
   background-color: #eeeeee;
 }
-.review-top {
+/* .review-top {
   width: 1200px;
   height: 100px;
-}
-.review-top h1 {
+} */
+/* .review-top h1 {
   font-size: 30px;
   padding-top: 20px;
-}
+} */
 .review-contents {
   width: 100%;
   height: 780px;
@@ -1061,23 +1075,33 @@ body {
 .instagram {
   width: 100%;
   height: 100%;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .instagram .inner {
   width: 1200px;
   background-color: #eeeeee;
 }
-.instagram-top {
+/* .instagram-top {
   width: 1200px;
   height: 90px;
   margin-top: 40px;
 }
-.instagram-top h1 {
+.ins-section-top h2 {
   font-size: 30px;
   margin: 0;
+} */
+.ins-section-top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.instagram-top span {
-  font-size: 20px;
+.ins-section-top h2 {
+  font-size: 3rem;
+}
+.ins-section-top .instagram-link > span {
+  font-size: 1.5rem;
   color: #a5a5a5;
   font-weight: 300;
 }
