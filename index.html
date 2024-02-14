@@ -208,7 +208,7 @@
                   </ul>
                 </li>
                 <li><a href="#">NEW</a></li>
-                <li><a href="#">BEST</a></li>
+                <li><a href ="#">BEST</a></li>
                 <li><a href="#">당일발송</a></li>
                 <li class="sale-list"><a href="#">SALE</a>
                   <ul class="sale-submenu">
@@ -297,7 +297,10 @@
               <p class="product-price">27,200 원</p>
               <div class="icon">
               <p><i class="xi-cart-o"></i></p>
-              <p><i class="xi-heart-o"></i></p>
+              <div id="weekly-hearts1">
+              <p><i id="weekly-heart1" class="xi-heart-o"></i></p>
+              <p><i id="weekly-heart-full1" class="xi-heart"></i></p>  
+              </div>
               </div>
             </li>
             <li class="best2">
@@ -315,7 +318,10 @@
                 <p class="product-price">51,500 원</p>
                 <div class="icon">
                 <p><i class="xi-cart-o"></i></p>
-                <p><i class="xi-heart-o"></i></p>
+                <div id="weekly-hearts2">
+                  <p><i id="weekly-heart2" class="xi-heart-o"></i></p>
+                  <p><i id="weekly-heart-full2" class="xi-heart"></i></p>  
+                  </div>
                 </div>
               </li>
               <li class="best3">
@@ -331,7 +337,10 @@
                   <p class="product-price">29,900 원</p>
                   <div class="icon">
                   <p><i class="xi-cart-o"></i></p>
-                  <p><i class="xi-heart-o"></i></p>
+                  <div id="weekly-hearts3">
+                    <p><i id="weekly-heart3" class="xi-heart-o"></i></p>
+                    <p><i id="weekly-heart-full3" class="xi-heart"></i></p>  
+                    </div>
                   </div>
                 </li>
                 <li class="best4">
@@ -347,7 +356,10 @@
                     <p class="product-price">12,000 원</p>
                     <div class="icon">
                     <p><i class="xi-cart-o"></i></p>
-                    <p><i class="xi-heart-o"></i></p>
+                    <div id="weekly-hearts4">
+                      <p><i id="weekly-heart4" class="xi-heart-o"></i></p>
+                      <p><i id="weekly-heart-full4" class="xi-heart"></i></p>  
+                      </div>
                     </div>
                   </li>
         </div>
@@ -390,9 +402,10 @@
                 </div>
                 <div class="styling-bottom-ect">
                 <div class="styling-bottom-bt"><a href="#" class="styling-more-bt">MORE</a></div>
-                <div class="heart">
-                  <i class="fa-regular fa-heart"></i>
-                  <span>51</span>
+                <div class="heart" id="heartContainer">
+                  <i id="heartIcon" class="xi-heart-o"></i>
+                  <i id="heartIconFull" class="xi-heart"></i>
+                  <span id="likeCount">51</span>
                 </div>
                 </div>
               </div>
@@ -413,17 +426,7 @@
           <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-      <!-- 서아파트 -->
+      <!-- centerbanner -->
       <section class="centerbanner">
         <div class="inner">
           <div class="swiper sw-centerbanner">
@@ -449,28 +452,11 @@
           </div>
         </div>
       </section>
-      <script>
-        var swiper = new Swiper(".sw-centerbanner", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
+      <!-- review -->
       <section class="review">
         <div class="inner">
-          <div class="review-top">
-            <h1>REVIEW</h1>
+          <div class="section-top">
+            <h2>REVIEW</h2>
           </div>
           <div class="review-contents">
             <div class="review1">
@@ -607,6 +593,7 @@
           <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
         </div>
       </section>
+      <!-- focuson -->
       <section class="focuson">
         <div class="inner">
           <div class="focuson-left">
@@ -637,10 +624,11 @@
 
 </script>
       </section>
+            <!-- instagram -->
       <section class="instagram">
         <div class="inner">
-          <div class="instagram-top">
-            <h1>INSTAGRAM</h1>
+          <div class="ins-section-top" class="ins-top">
+            <h2>INSTAGRAM</h2>
             <div class="instagram-link">
             <span><i class="fa-brands fa-instagram"></i></span> 
             <span>AchroCity_</span>
@@ -661,6 +649,7 @@
           <div class="section-bottom"><a href="#" class="more-bt">MORE</a></div>
         </div>
       </section>
+      <!-- footer -->
       <footer class="footer">
           <div class="footer-top">
             <div class="inner">
