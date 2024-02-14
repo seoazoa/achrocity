@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+/* .noto-sans kr-<uniquifier> {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+  word-break: keep-all;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.3rem;
+  background-color: #eee;
+}
+/* 공통 클래스 */
+.inner {
+  display: block;
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* 메인 */
+.login {
+  background-color: #eee;
+  width: 100%;
+  height: 934px;
+}
+.logintitle {
+  width: 100%;
+  height: 104px;
+}
+.logintitle span {
+  font-size: 32px;
+  color: #000;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+}
+.loginmember {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+}
+.memberlogin > span {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+.id {
+  padding-top: 36px;
+}
+#username {
+  padding: 19px 158px 20px 25px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  font-size: 16px;
+}
+#password {
+  padding: 19px 158px 20px 25px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.password {
+  padding-top: 25px;
+}
+.idsavecheck {
+}
+.idsave {
+  display: flex;
+  align-items: center;
+  padding-bottom: 31px;
+}
+.idsave span {
+  padding-left: 8px;
+  font-size: 16px;
+}
+.autologin {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.autologin span {
+  padding-left: 8px;
+  font-size: 16px;
+}
+.checkbox {
+  padding-top: 27px;
+  display: flex;
+}
+.autologin {
+  padding-left: 15px;
+}
+.loginbtn {
+  margin-top: 28px;
+}
+.loginbtn a span {
+  width: 400px;
+  padding: 20px 178px;
+  background-color: #4d4d4d;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.loginmenu {
+  margin-top: 27px;
+  display: flex;
+}
+.loginbanner {
+  display: block;
+  text-align: center;
+  padding-top: 62px;
+}
