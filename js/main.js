@@ -143,7 +143,7 @@ document.getElementById('weekly-hearts4').addEventListener('click', function() {
 
 
 
-  // 호버 했을때 서브메뉴 보이게 하기
+  // //호버 했을때 서브메뉴 보이게 하기
   // document.addEventListener("DOMContentLoaded", function() {
   //   var menuItems = document.querySelectorAll(".shop-list, .sale-list");
   //   menuItems.forEach(function(item) {

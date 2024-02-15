@@ -166,7 +166,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/best.js"></script>
     <title>AchroCity</title>
   </head>
   <body>
@@ -252,7 +252,7 @@
             <span>홈 > BEST</span>
           </div>
           <div class="best-top">
-            <div class="products">
+            <ul class="products">
               <li class="best1">
                 <div class="best-img">
                   <a href="#"><img src="images/best1.jpg" alt="베스트1" /></a>
@@ -268,9 +268,7 @@
                     <span>Size</span>
                     <select name="size" class="size-choose">
                       <option value="size">-----</option>
-                      <option value="s">S</option>
-                      <option value="m">M</option>
-                      <option value="l">L</option>
+                      <option value="free">FRRE</option>
                     </select>
                   </div>
                 </div>
@@ -282,9 +280,9 @@
                 <p class="product-price">27,200 원</p>
                 <div class="icon">
                   <p><i class="xi-cart-o"></i></p>
-                  <div id="weekly-hearts1">
-                    <p><i id="weekly-heart1" class="xi-heart-o"></i></p>
-                    <p><i id="weekly-heart-full1" class="xi-heart"></i></p>
+                  <div id="best-hearts1">
+                    <p><i id="best-heart1" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full1" class="xi-heart"></i></p>
                   </div>
                 </div>
               </li>
@@ -293,11 +291,20 @@
                   <a href="#"><img src="images/best2.jpg" alt="베스트2" /></a>
                   <span class="best-text">Best<br />02</span>
                 </div>
-                <div class="colors">
-                  <p class="color1"></p>
-                  <p class="color2"></p>
-                  <p class="color3"></p>
-                  <p class="color4"></p>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                    <p class="color3"></p>
+                    <p class="color4"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="FREE">FREE</option>
+                    </select>
+                  </div>
                 </div>
                 <a href="#"
                   ><p class="product-name">배키 숏 더플 스웨이드 무스탕</p></a
@@ -305,9 +312,9 @@
                 <p class="product-price">51,500 원</p>
                 <div class="icon">
                   <p><i class="xi-cart-o"></i></p>
-                  <div id="weekly-hearts2">
-                    <p><i id="weekly-heart2" class="xi-heart-o"></i></p>
-                    <p><i id="weekly-heart-full2" class="xi-heart"></i></p>
+                  <div id="best-hearts2">
+                    <p><i id="best-heart2" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full2" class="xi-heart"></i></p>
                   </div>
                 </div>
               </li>
@@ -316,9 +323,18 @@
                   <a href="#"><img src="images/best3.jpg" alt="베스트3" /></a>
                   <span class="best-text">Best<br />03</span>
                 </div>
-                <div class="colors">
-                  <p class="color1"></p>
-                  <p class="color2"></p>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
                 </div>
                 <a href="#"
                   ><p class="product-name">
@@ -328,9 +344,9 @@
                 <p class="product-price">29,900 원</p>
                 <div class="icon">
                   <p><i class="xi-cart-o"></i></p>
-                  <div id="weekly-hearts3">
-                    <p><i id="weekly-heart3" class="xi-heart-o"></i></p>
-                    <p><i id="weekly-heart-full3" class="xi-heart"></i></p>
+                  <div id="best-hearts3">
+                    <p><i id="best-heart3" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full3" class="xi-heart"></i></p>
                   </div>
                 </div>
               </li>
@@ -339,9 +355,18 @@
                   <a href="#"><img src="images/best4.jpg" alt="베스트4" /></a>
                   <span class="best-text">Best<br />04</span>
                 </div>
-                <div class="colors">
-                  <p class="color1"></p>
-                  <p class="color2"></p>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
                 </div>
                 <a href="#"
                   ><p class="product-name">타블 스타 별 헤어 집게핀</p></a
@@ -349,17 +374,547 @@
                 <p class="product-price">12,000 원</p>
                 <div class="icon">
                   <p><i class="xi-cart-o"></i></p>
-                  <div id="weekly-hearts4">
-                    <p><i id="weekly-heart4" class="xi-heart-o"></i></p>
-                    <p><i id="weekly-heart-full4" class="xi-heart"></i></p>
+                  <div id="best-hearts4">
+                    <p><i id="best-heart4" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full4" class="xi-heart"></i></p>
                   </div>
                 </div>
               </li>
+            </ul>
+          </div>
+          <div class="section-center-top">
+            <ul class="section-center-list">
+              <li>
+                <span>최신순</span>
+              </li>
+              <li>
+                <span>인기순</span>
+              </li>
+              <li>
+                <span>낮은가격순</span>
+              </li>
+              <li>
+                <span>높은가격순</span>
+              </li>
+            </ul>
+          </div>
+          <div class="best-contents">
+            <ul class="products">
+              <li class="best5">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best1.jpg" alt="베스트1"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="s">S</option>
+                      <option value="m">M</option>
+                      <option value="l">L</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">
+                    로쉐 브라운 워싱 와이드 데님 팬츠
+                  </p></a
+                >
+                <p class="product-price">29,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts5">
+                    <p><i id="best-heart5" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full5" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best6">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best2.jpg" alt="베스트2"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"><p class="product-name">프런 어깨 트임 니트</p></a>
+                <p class="product-price">27,000 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts6">
+                    <p><i id="best-heart6" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full6" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best7">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best3.jpg" alt="베스트3"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">셈버 레이스 레이어드 나시</p></a
+                >
+                <p class="product-price">14,000 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts7">
+                    <p><i id="best-heart7" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full7" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best8">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best4.jpg" alt="베스트4"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">캐린 앙고라 크롭 니트 가디건</p></a
+                >
+                <p class="product-price">19,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts8">
+                    <p><i id="best-heart8" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full8" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best9">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best5.jpg" alt="베스트5"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                    <p class="color3"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">디켄 앙고라 크롭 니트 가디건</p></a
+                >
+                <p class="product-price">23,400 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts9">
+                    <p><i id="best-heart9" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full9" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best10">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best6.jpg" alt="베스트6"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">엔젤 버클 앙고라 가디건</p></a
+                >
+                <p class="product-price">23,400 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts10">
+                    <p><i id="best-heart10" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full10" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best11">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best7.jpg" alt="베스트7"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"><p class="product-name">웰시 포켓 커버 백팩</p></a>
+                <p class="product-price">23,400 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts11">
+                    <p><i id="best-heart11" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full11" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best12">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best8.jpg" alt="베스트8"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">타블 스타 별 헤어 집게핀</p></a
+                >
+                <p class="product-price">12,000 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts12">
+                    <p><i id="best-heart12" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full12" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best13">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best9.jpg" alt="베스트9"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">헤티 레더 버클 숄더백</p></a
+                >
+                <p class="product-price">23,400 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts13">
+                    <p><i id="best-heart13" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full13" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best14">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best10.jpg" alt="베스트10"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">Free</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">다미 크롭 니트 가디건</p></a
+                >
+                <p class="product-price">36,500 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts14">
+                    <p><i id="best-heart14" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full14" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best15">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best11.jpg" alt="베스트11"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">진진 머플러 니트 원피스 세트</p></a
+                >
+                <p class="product-price">34,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts15">
+                    <p><i id="best-heart15" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full15" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best16">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best12.jpg" alt="베스트12"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                    <p class="color3"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">아이린 원숄더 머플러 티셔츠</p></a
+                >
+                <p class="product-price">27,200 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts16">
+                    <p><i id="best-heart16" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full16" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best17">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best13.jpg" alt="베스트13"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">료코 루즈핏 앙고라 니트</p></a
+                >
+                <p class="product-price">19,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts17">
+                    <p><i id="best-heart17" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full17" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best18">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best14.jpg" alt="베스트14"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">즈히 셔링 오프숄더 니트</p></a
+                >
+                <p class="product-price">19,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts18">
+                    <p><i id="best-heart18" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full18" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best19">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best15.jpg" alt="베스트15"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="s">S</option>
+                      <option value="m">M</option>
+                      <option value="l">L</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">러디 기모 코듀로이 와이드 팬츠</p></a
+                >
+                <p class="product-price">29,900 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts19">
+                    <p><i id="best-heart19" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full19" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+              <li class="best20">
+                <div class="best-img">
+                  <a href="#"
+                    ><img src="images/best/best16.jpg" alt="베스트16"
+                  /></a>
+                </div>
+                <div class="best-contents-top">
+                  <div class="colors">
+                    <p class="color1"></p>
+                    <p class="color2"></p>
+                    <p class="color3"></p>
+                  </div>
+                  <div class="size">
+                    <span>Size</span>
+                    <select name="size" class="size-choose">
+                      <option value="size">-----</option>
+                      <option value="free">FREE</option>
+                    </select>
+                  </div>
+                </div>
+                <a href="#"
+                  ><p class="product-name">데뮤 꽈배기 브이넥 니트</p></a
+                >
+                <p class="product-price">23,300 원</p>
+                <div class="icon">
+                  <p><i class="xi-cart-o"></i></p>
+                  <div id="best-hearts20">
+                    <p><i id="best-heart20" class="xi-heart-o"></i></p>
+                    <p><i id="best-heart-full20" class="xi-heart"></i></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="section-bottom">
+            <div class="section-bottom-left">
+              <span><i class="fa-solid fa-angles-left"></i></span>
+              <span><i class="fa-solid fa-angle-left"></i></span>
+            </div>
+            <div class="section-bottom-center">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </div>
+            <div class="section-bottom-right">
+              <span><i class="fa-solid fa-angle-right"></i></span>
+              <span><i class="fa-solid fa-angles-right"></i></span>
             </div>
           </div>
         </div>
       </div>
-
       <!-- footer -->
       <footer class="footer">
         <div class="footer-top">

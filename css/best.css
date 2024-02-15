@@ -222,21 +222,31 @@ body {
   color: #797979;
   font-size: 1.8rem;
 }
-.section-top {
-  background-color: antiquewhite;
-}
 /* Best 상세페이지 */
-
+.best .section-top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.best .section-top span {
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
 /* best-top */
 .best {
   position: relative;
 }
-.weekly-best .inner {
+.best .inner {
   width: 1200px;
 }
 .products {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
+}
+.section-top span {
+  font-size: 1.5rem;
 }
 /* best 공통 */
 .best-img {
@@ -266,14 +276,14 @@ body {
 }
 .colors {
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   gap: 10px;
   /* cursor: pointer; */
 }
 .size {
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   gap: 7px;
 }
@@ -297,11 +307,11 @@ select {
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
 }
 .size-choose {
-    color: #5d5d5d;
-    font-size: 1.3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100%;
+  color: #5d5d5d;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 }
 select:hover {
   border-color: #888;
@@ -331,7 +341,7 @@ select:disabled {
 }
 .icon {
   display: flex;
-  margin-top: 7px;
+  margin-bottom: 7px;
   margin-left: 200px;
 }
 .icon i {
@@ -343,7 +353,14 @@ select:disabled {
 .icon {
   cursor: pointer;
 }
-
+/* ===== heart 아이콘 ===== */
+.xi-heart-o {
+  display: inline;
+  padding-right: 0;
+}
+.xi-heart {
+  display: none;
+}
 /* best1 */
 .best1 {
   width: 275px;
@@ -431,12 +448,356 @@ select:disabled {
   height: 10px;
   background-color: #000;
 }
+.section-center-top {
+  height: 100px;
+  /* background-color: #444; */
+  position: relative;
+}
+.section-center-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+.section-center-list li:not(:last-child) {
+  position: relative;
+  display: inline-block;
+  padding-right: 14px; /* 각 요소 사이의 간격 조정 */
+}
+.section-center-list li span {
+  cursor: pointer;
+}
+.section-center-list li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0.5px;
+  background-color: black;
+}
+.best-img > a > img {
+  width: 275px;
+  height: 320px;
+}
+.best-contents > .products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 0;
+}
+/* best5 */
+.best5 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best5 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #6d605a;
+}
+/* best6 */
+.best6 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best6 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #a7a7a7;
+}
+.best6 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000000;
+}
+/* best7 */
+.best7 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best7 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff;
+  border: 0.1px solid #a7a7a7;
+}
+.best7 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000000;
+}
+/* best8 */
+.best8 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best8 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff6e9;
+  border: 0.1px solid #a7a7a7;
+}
+.best8 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000000;
+}
+/* best9 */
+.best9 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best9 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff6e9;
+  border: 0.1px solid #a7a7a7;
+}
+.best9 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #141c67;
+}
+.best9 .color3 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best10 */
+.best10 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best10 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff;
+  border: 0.1px solid #a7a7a7;
+}
+.best10 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best11 */
+.best11 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best11 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best12 */
+.best12 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best12 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff;
+  border: 0.1px solid #a7a7a7;
+}
+.best12 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best13 */
+.best13 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best13 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best14 */
+.best14 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best14 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #4b4b4b;
+}
+/* best15 */
+.best15 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best15 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #4b4b4b;
+}
+/* best16 */
+.best16 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best16 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff;
+  border: 0.1px solid #a7a7a7;
+}
+.best16 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #a7a7a7;
+}
+.best16 .color3 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best17 */
+.best17 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best17 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #a7a7a7;
+}
+.best17 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best18 */
+.best18 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best18 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff6e9;
+  border: 0.1px solid #a7a7a7;
+}
+.best18 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best19 */
+.best19 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best19 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff6e9;
+  border: 0.1px solid #a7a7a7;
+}
+.best19 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+/* best20 */
+.best20 {
+  width: 275px;
+  height: 450px;
+  box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
+  background-color: #fff;
+}
+.best20 .color1 {
+  width: 16px;
+  height: 10px;
+  background-color: #fff6e9;
+  border: 0.1px solid #a7a7a7;
+}
+.best20 .color2 {
+  width: 16px;
+  height: 10px;
+  background-color: #a7a7a7;
+}
+.best20 .color3 {
+  width: 16px;
+  height: 10px;
+  background-color: #000;
+}
+.section-bottom {
+  width: 100%;
+  /* background-color: indianred; */
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 60px;
+}
+.section-bottom-left {
+  display: flex;
+  gap: 0 20px;
+}
+.section-bottom-center {
+  display: flex;
+  gap: 0 30px;
+}
+.section-bottom-right {
+  display: flex;
+  gap: 0 20px;
+}
+.section-bottom-left, .section-bottom-right span {
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #5d5d5d;
+}
+.section-bottom-center span {
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: #5d5d5d;
+}
+.section-bottom-center span:nth-child(1) {
+  font-weight: 700;
+}
 
 /* 푸터 */
 footer {
   width: 100%;
   height: 400px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .footer-top .inner {
   width: 1200px;
