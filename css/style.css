@@ -128,6 +128,7 @@ body {
   height: 45px;
   display: block;
   transition: all 0.3s;
+  min-width: 1200px;
 }
 /* 스크롤 시 헤더 고정 */
 .header.fixed {
@@ -165,17 +166,19 @@ body {
 }
 /* 서브 메뉴 */
 .shop-submenu {
-  width: 100px;
-  height: 200px;
-  line-height: 25px;
+  width: 150px;
+  height: 275px;
+  line-height: 35px;
   text-align: center;
   background-color: #fff;
+  /* background-color: #535353; */
   position: absolute;
-  top: 20px;
-  left: -26px;
+  top: 59px;
+  left: -53px;
   padding-top: 10px;
   display: none;
   /* border: 1px solid #ccc; */
+  box-shadow: 0px 8px 10px 0.5px rgba(0, 0, 0, 0.2);
   z-index: 99;
   /* transition: all 0.5s ease; */
   opacity: 0;
@@ -529,6 +532,7 @@ body {
 }
 /* 스타일 가이드 왼쪽 */
 .styling1 {
+  height: 750px;
   box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
 }
 .styling-top {
@@ -627,7 +631,6 @@ body {
   color: #000;
   font-weight: 500;
 }
-
 .styling-bottom-ect {
   height: 70px;
   position: relative;
@@ -662,9 +665,6 @@ body {
 }
 .xi-heart {
   display: none;
-}
-#weekly-heart-full {
-  /* color: red; */
 }
 .heart i {
   font-size: 2.5rem;
