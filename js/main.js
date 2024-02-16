@@ -135,35 +135,27 @@ document.getElementById('weekly-hearts4').addEventListener('click', function() {
   toggleHeartIcon('weekly-heart4'); // 하트 아이콘을 토글합니다.
 });
 //  =======================================================
-
-
-
-
-
-
-
-
-  // //호버 했을때 서브메뉴 보이게 하기
-  // document.addEventListener("DOMContentLoaded", function() {
-  //   var menuItems = document.querySelectorAll(".shop-list, .sale-list");
-  //   menuItems.forEach(function(item) {
-  //     var submenu = item.querySelector("ul");
-  //     if (submenu) {
-  //       item.addEventListener("mouseenter", function() {
-  //         submenu.style.display = "block";
-  //       });
-  //       item.addEventListener("mouseleave", function(event) {
-  //         var relatedTarget = event.relatedTarget;
-  //         if (!submenu.contains(relatedTarget)) {
-  //           submenu.style.display = "none";
-  //         }
-  //       });
-  //       submenu.addEventListener("mouseleave", function() {
-  //         submenu.style.display = "none";
-  //       });
-  //     }
-  //   });
-  // });
+//   // //호버 했을때 서브메뉴 보이게 하기
+// // SHOP 메뉴 요소를 가져옴
+// var shopMenu = document.querySelector('.shop-list');
+// // SHOP 메뉴에 마우스가 진입했을 때 실행되는 함수
+// function showSubMenu() {
+//   // SHOP 서브메뉴 요소를 가져옴
+//   var subMenu = document.querySelector('.shop-submenu');
+//   // 서브메뉴를 보이도록 함
+//   subMenu.style.display = 'block';
+// }
+// // SHOP 메뉴에 호버(hover) 이벤트를 추가하여 showSubMenu 함수를 실행
+// shopMenu.addEventListener('mouseover', showSubMenu);
+// // 서브메뉴가 아닌 부분에 마우스가 진입했을 때 서브메뉴를 숨기는 함수
+// function hideSubMenu() {
+//   // SHOP 서브메뉴 요소를 가져옴
+//   var subMenu = document.querySelector('.shop-submenu');
+//   // 서브메뉴를 숨김
+//   subMenu.style.display = 'none';
+// }
+// // SHOP 메뉴에서 마우스가 벗어났을 때 서브메뉴를 숨기는 이벤트 추가
+// shopMenu.addEventListener('mouseout', hideSubMenu);
   //  <!-- top swiper -->
   var swiper = new Swiper(".sw-top", {
     spaceBetween: 30,
