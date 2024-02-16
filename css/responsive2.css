@@ -1,4 +1,13 @@
 @charset "utf-8";
 @media all and (max-width: 1240px){
-    
+    .review .inner{
+        width: 90%;
+        background-color: aquamarine;
+    }
 }
+@media screen and (max-width: 1200px) {
+    .focuson-video iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
