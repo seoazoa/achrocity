@@ -175,6 +175,44 @@ document.getElementById('weekly-hearts4').addEventListener('click', function() {
       prevEl: ".sw-prev",
     },
   });
+    //  <!-- 800px top swiper -->
+    var swiper800 = new Swiper(".sw-top-800", {
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".sw-top-pg-800",
+        clickable: true,
+        //   dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".sw-next-800",
+        prevEl: ".sw-prev-800",
+      },
+    });
+    //  <!-- 700px top swiper -->
+    var swiper700 = new Swiper(".sw-top-700", {
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".sw-top-pg-700",
+        clickable: true,
+        //   dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".sw-next-700",
+        prevEl: ".sw-prev-700",
+      },
+    });
   //  <!-- center swiper -->
   var swiper = new Swiper(".sw-centerbanner", {
     spaceBetween: 30,
