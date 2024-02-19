@@ -549,7 +549,7 @@
                     <a href="#"
                       ><span class="reviewsubstance"
                         >바지 색감이 너무너무 예쁘고 최고로 잘 산 바지인 것
-                        같아요 아무데나 입고</span
+                        같아요 아무데나 입고 나가도 정말 좋을것 같아요</span
                       ></a
                     >
                   </li>
@@ -587,7 +587,7 @@
                     <a href="#"
                       ><span class="reviewsubstance"
                         >핏 너무 이뻐요~ 와이드바지에 옷 하나 걸쳐도 꾸꾸꾸
-                        되는데여 뚱뚱한데 날씬</span
+                        되는데여 뚱뚱한데 날씬해보이게 만들어줘서</span
                       ></a
                     >
                   </li>
@@ -663,7 +663,7 @@
                     <a href="#"
                       ><span class="reviewsubstance"
                         >뽀송거리고 귀여워용 넘넘 만족스러워요 사이즈가 좀
-                        큰거같기는 하지만 괜찮</span
+                        큰거같기는 하지만 괜찮습니다!</span
                       ></a
                     >
                   </li>
@@ -698,7 +698,7 @@
                   <li>
                     <a href="#"
                       ><span class="reviewsubstance"
-                        >배송에 시간이 좀 걸린 거라서 이런 점이 조금 아쉽기는
+>배송에 시간이 좀 걸린 거라서 이런 점이 조금 아쉽기는
                         하지만 옷이 정말 예뻐요</span
                       ></a
                     >
@@ -844,7 +844,7 @@
                     <a href="#"
                       ><span class="reviewsubstance"
                         >와이드하고 편하게 입을 수 있어서 좋아요! 두께감이 약간
-                        있어서 가을이 딱</span
+                        있어서 가을에 입기 딱 좋은것 같아요</span
                       ></a
                     >
                   </li>
@@ -866,42 +866,29 @@
           <div class="focuson-left">
             <ul>
               <li><span>FOCUS ON</span></li>
-              <li>
-                <span>시즈니룩<br />꿀팁전수</span>
-              </li>
+              <li><span>시즈니룩<br>꿀팁전수</span></li>
               <li><span># 무채색 겨울 코디</span></li>
             </ul>
           </div>
           <div class="focuson-video">
             <a href="#" title="재생버튼">
-              <img id="video-image" src="images/videoimg/videoimg.png" alt="" />
-              <iframe
-                id="video-iframe"
-                width="900"
-                height="500"
-                src="https://www.youtube.com/embed/nv7RQlqcFic"
-                frameborder="0"
-                style="display: none"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+                <img id="video-image" src="images/videoimg/videoimg.png" alt="">
+                <iframe id="video-iframe" width=1000" height="500" src="https://www.youtube.com/embed/nv7RQlqcFic" frameborder="0" style="display:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </a>
-          </div>
         </div>
-        <script>
-          document
-            .querySelector(".focuson-video a")
-            .addEventListener("click", function (event) {
-              event.preventDefault();
-              document.getElementById("video-image").style.display = "none";
-              var iframe = document.getElementById("video-iframe");
-              iframe.style.display = "block";
-              iframe.src += "?autoplay=1";
+        </div>
+      <script>
+      document.querySelector(".focuson-video a").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("video-image").style.display = 'none';
+    var iframe = document.getElementById("video-iframe");
+    iframe.style.display = 'block';
+    iframe.src += "?autoplay=1";
+    // 부모 요소에 클래스를 추가하여 ::after 요소를 숨깁니다.
+    this.closest('.focuson-video').classList.add('hide-after');
+});
 
-              // 부모 요소에 클래스를 추가하여 ::after 요소를 숨깁니다.
-              this.closest(".focuson-video").classList.add("hide-after");
-            });
-        </script>
+</script>
       </section>
       <!-- instagram -->
       <section class="instagram">

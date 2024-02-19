@@ -708,6 +708,7 @@ body {
 /* 서아파트 */
 /* 중간배너 */
 .centerbanner .inner {
+  width: 100%;
   background-color: #eeeeee;
 }
 .sw-centerbanner a {
@@ -740,7 +741,7 @@ body {
 }
 .reviewsection {
   width: 100%;
-  height: 140px;
+  /* height: 140px; */
   padding: 14px;
   background-color: #fff;
 }
@@ -847,12 +848,14 @@ body {
   margin-top: 40px;
 }
 .focuson .inner {
+  width: 100%;
   height: 100%;
+  display: flex;
 }
 .focuson-left {
-  width: 300px;
+ width: 20%;
   height: 500px;
-  background-color: #000;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -890,23 +893,13 @@ body {
 }
 .focuson-video {
   width: 100%;
-  height: 500px;
-  background-color: #ff8a00;
+ height: 500px;
+  /* height: 500px; */
+ 
 }
-
 .focuson-video a img {
-  width: 75%;
+  width: 100%;
   height: 100%;
-}
-
-.focuson-video iframe {
-  width: 75%;
-  height: 100%;
-}
-.focuson-video iframe {
-  width: 75%;
-  height: 100%;
-  min-width: 1200px; /* iframe의 최소 너비를 1200px로 설정합니다. */
 }
 .focuson-video a::after {
   content: "";
@@ -915,7 +908,7 @@ body {
   height: 86px;
   background: url("../images/kv-movie.png") no-repeat center;
   position: absolute;
-  top: 42%;
+  top: 45%;
   left: 59%;
 }
 .focuson-video.hide-after a::after {
@@ -941,10 +934,10 @@ body {
 } */
 .ins-section-top {
   width: 100%;
-  height: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 40px 0;
 }
 .ins-section-top h2 {
   font-size: 3rem;
@@ -959,16 +952,28 @@ body {
 }
 .instagram-contents {
   width: 100%;
-  height: 740px;
+  /* height: 740px; */
 }
 .instagram-contents ul {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
 }
 .instagram-contents ul > li {
+  width: calc(100% / 4 - 12px);
+  height: 100%;
   box-shadow: 2px 4px 10px 3px rgb(175, 175, 175);
+}
+.instagram-contents ul > li a{
+  width: 100%;
+  height: 100%;
+}
+.instagram-contents ul > li a img{
+  width: 100%;
+  height: 100%;
 }
 /* 푸터 */
 footer {
