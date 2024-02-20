@@ -63,99 +63,113 @@ window.onload = function () {
   document
     .getElementById("heartContainer")
     .addEventListener("click", toggleLikeCount);
-// =================== 클릭 시 하트 변경 - STYLING GUIDE
-// 하트 아이콘을 클릭하여 상태를 변경하는 함수입니다.
-function toggleStylingHeartIcon() {
-  // 현재 하트 아이콘의 상태를 확인합니다.
-  var heartIcon = document.getElementById('heartIcon');
-  var heartIconFull = document.getElementById('heartIconFull');
-  // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
-  if (heartIcon.style.display !== 'none') {
-    heartIcon.style.display = 'none';
-    heartIconFull.style.display = 'inline';
-  } 
-  // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
-  else {
-    heartIcon.style.display = 'inline';
-    heartIconFull.style.display = 'none';
+  // =================== 클릭 시 하트 변경 - STYLING GUIDE
+  // 하트 아이콘을 클릭하여 상태를 변경하는 함수입니다.
+  function toggleStylingHeartIcon() {
+    // 현재 하트 아이콘의 상태를 확인합니다.
+    var heartIcon = document.getElementById("heartIcon");
+    var heartIconFull = document.getElementById("heartIconFull");
+    // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
+    if (heartIcon.style.display !== "none") {
+      heartIcon.style.display = "none";
+      heartIconFull.style.display = "inline";
+    }
+    // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
+    else {
+      heartIcon.style.display = "inline";
+      heartIconFull.style.display = "none";
+    }
   }
-}
-// 하트를 클릭했을 때의 동작을 정의합니다.
-document.getElementById('heartContainer').addEventListener('click', function() {
-  toggleStylingHeartIcon(); // 하트 아이콘을 토글합니다.
-});
-// ====================  클릭 시 하트 변경 - WEEKLY BEST
-function toggleHeartIcon() {
-  // 현재 하트 아이콘의 상태를 확인합니다.
-  var weeklyHeart = document.getElementById('weekly-heart1');
-  var weeklyHeartFull = document.getElementById('weekly-heart-full1');
-  // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
-  if (weeklyHeart.style.display !== 'none') {
-    weeklyHeart.style.display = 'none';
-    weeklyHeartFull.style.display = 'inline';
-  } 
-  // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
-  else {
-    weeklyHeart.style.display = 'inline';
-    weeklyHeartFull.style.display = 'none';
+  // 하트를 클릭했을 때의 동작을 정의합니다.
+  document
+    .getElementById("heartContainer")
+    .addEventListener("click", function () {
+      toggleStylingHeartIcon(); // 하트 아이콘을 토글합니다.
+    });
+  // ====================  클릭 시 하트 변경 - WEEKLY BEST
+  function toggleHeartIcon() {
+    // 현재 하트 아이콘의 상태를 확인합니다.
+    var weeklyHeart = document.getElementById("weekly-heart1");
+    var weeklyHeartFull = document.getElementById("weekly-heart-full1");
+    // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
+    if (weeklyHeart.style.display !== "none") {
+      weeklyHeart.style.display = "none";
+      weeklyHeartFull.style.display = "inline";
+    }
+    // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
+    else {
+      weeklyHeart.style.display = "inline";
+      weeklyHeartFull.style.display = "none";
+    }
   }
-}
-// 하트를 클릭했을 때의 동작을 정의합니다.
-document.getElementById('weekly-hearts1').addEventListener('click', function() {
-  toggleHeartIcon(); // 하트 아이콘을 토글합니다.
-});
-// ============================== 모든 요소에 동일한 코드 적용
-function toggleHeartIcon(heartId) {
-  // 현재 하트 아이콘의 상태를 확인합니다.
-  var weeklyHeart = document.getElementById(heartId);
-  var weeklyHeartFull = document.getElementById(heartId.replace("heart", "heart-full"));
-  
-  // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
-  if (weeklyHeart.style.display !== 'none') {
-    weeklyHeart.style.display = 'none';
-    weeklyHeartFull.style.display = 'inline';
-  } 
-  // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
-  else {
-    weeklyHeart.style.display = 'inline';
-    weeklyHeartFull.style.display = 'none';
+  // 하트를 클릭했을 때의 동작을 정의합니다.
+  document
+    .getElementById("weekly-hearts1")
+    .addEventListener("click", function () {
+      toggleHeartIcon(); // 하트 아이콘을 토글합니다.
+    });
+  // ============================== 모든 요소에 동일한 코드 적용
+  function toggleHeartIcon(heartId) {
+    // 현재 하트 아이콘의 상태를 확인합니다.
+    var weeklyHeart = document.getElementById(heartId);
+    var weeklyHeartFull = document.getElementById(
+      heartId.replace("heart", "heart-full")
+    );
+
+    // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
+    if (weeklyHeart.style.display !== "none") {
+      weeklyHeart.style.display = "none";
+      weeklyHeartFull.style.display = "inline";
+    }
+    // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
+    else {
+      weeklyHeart.style.display = "inline";
+      weeklyHeartFull.style.display = "none";
+    }
   }
-}
-// 각 요소에 클릭 이벤트를 추가합니다.
-document.getElementById('weekly-hearts1').addEventListener('click', function() {
-  toggleHeartIcon('weekly-heart1'); // 하트 아이콘을 토글합니다.
-});
-document.getElementById('weekly-hearts2').addEventListener('click', function() {
-  toggleHeartIcon('weekly-heart2'); // 하트 아이콘을 토글합니다.
-});
-document.getElementById('weekly-hearts3').addEventListener('click', function() {
-  toggleHeartIcon('weekly-heart3'); // 하트 아이콘을 토글합니다.
-});
-document.getElementById('weekly-hearts4').addEventListener('click', function() {
-  toggleHeartIcon('weekly-heart4'); // 하트 아이콘을 토글합니다.
-});
-//  =======================================================
-//   // //호버 했을때 서브메뉴 보이게 하기
-// // SHOP 메뉴 요소를 가져옴
-// var shopMenu = document.querySelector('.shop-list');
-// // SHOP 메뉴에 마우스가 진입했을 때 실행되는 함수
-// function showSubMenu() {
-//   // SHOP 서브메뉴 요소를 가져옴
-//   var subMenu = document.querySelector('.shop-submenu');
-//   // 서브메뉴를 보이도록 함
-//   subMenu.style.display = 'block';
-// }
-// // SHOP 메뉴에 호버(hover) 이벤트를 추가하여 showSubMenu 함수를 실행
-// shopMenu.addEventListener('mouseover', showSubMenu);
-// // 서브메뉴가 아닌 부분에 마우스가 진입했을 때 서브메뉴를 숨기는 함수
-// function hideSubMenu() {
-//   // SHOP 서브메뉴 요소를 가져옴
-//   var subMenu = document.querySelector('.shop-submenu');
-//   // 서브메뉴를 숨김
-//   subMenu.style.display = 'none';
-// }
-// // SHOP 메뉴에서 마우스가 벗어났을 때 서브메뉴를 숨기는 이벤트 추가
-// shopMenu.addEventListener('mouseout', hideSubMenu);
+  // 각 요소에 클릭 이벤트를 추가합니다.
+  document
+    .getElementById("weekly-hearts1")
+    .addEventListener("click", function () {
+      toggleHeartIcon("weekly-heart1"); // 하트 아이콘을 토글합니다.
+    });
+  document
+    .getElementById("weekly-hearts2")
+    .addEventListener("click", function () {
+      toggleHeartIcon("weekly-heart2"); // 하트 아이콘을 토글합니다.
+    });
+  document
+    .getElementById("weekly-hearts3")
+    .addEventListener("click", function () {
+      toggleHeartIcon("weekly-heart3"); // 하트 아이콘을 토글합니다.
+    });
+  document
+    .getElementById("weekly-hearts4")
+    .addEventListener("click", function () {
+      toggleHeartIcon("weekly-heart4"); // 하트 아이콘을 토글합니다.
+    });
+  //  =======================================================
+  //   // //호버 했을때 서브메뉴 보이게 하기
+  // // SHOP 메뉴 요소를 가져옴
+  // var shopMenu = document.querySelector('.shop-list');
+  // // SHOP 메뉴에 마우스가 진입했을 때 실행되는 함수
+  // function showSubMenu() {
+  //   // SHOP 서브메뉴 요소를 가져옴
+  //   var subMenu = document.querySelector('.shop-submenu');
+  //   // 서브메뉴를 보이도록 함
+  //   subMenu.style.display = 'block';
+  // }
+  // // SHOP 메뉴에 호버(hover) 이벤트를 추가하여 showSubMenu 함수를 실행
+  // shopMenu.addEventListener('mouseover', showSubMenu);
+  // // 서브메뉴가 아닌 부분에 마우스가 진입했을 때 서브메뉴를 숨기는 함수
+  // function hideSubMenu() {
+  //   // SHOP 서브메뉴 요소를 가져옴
+  //   var subMenu = document.querySelector('.shop-submenu');
+  //   // 서브메뉴를 숨김
+  //   subMenu.style.display = 'none';
+  // }
+  // // SHOP 메뉴에서 마우스가 벗어났을 때 서브메뉴를 숨기는 이벤트 추가
+  // shopMenu.addEventListener('mouseout', hideSubMenu);
   //  <!-- top swiper -->
   var swiper = new Swiper(".sw-top", {
     spaceBetween: 30,
@@ -175,44 +189,82 @@ document.getElementById('weekly-hearts4').addEventListener('click', function() {
       prevEl: ".sw-prev",
     },
   });
-    //  <!-- 800px top swiper -->
-    var swiper800 = new Swiper(".sw-top-800", {
-      spaceBetween: 30,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".sw-top-pg-800",
-        clickable: true,
-        //   dynamicBullets: true,
-      },
-      navigation: {
-        nextEl: ".sw-next-800",
-        prevEl: ".sw-prev-800",
-      },
-    });
-    //  <!-- 700px top swiper -->
-    var swiper700 = new Swiper(".sw-top-700", {
-      spaceBetween: 30,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".sw-top-pg-700",
-        clickable: true,
-        //   dynamicBullets: true,
-      },
-      navigation: {
-        nextEl: ".sw-next-700",
-        prevEl: ".sw-prev-700",
-      },
-    });
+  //  <!-- 800px top swiper -->
+  var swiper800 = new Swiper(".sw-top-800", {
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".sw-top-pg-800",
+      clickable: true,
+      //   dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".sw-next-800",
+      prevEl: ".sw-prev-800",
+    },
+  });
+  //  <!-- 700px top swiper -->
+  var swiper700 = new Swiper(".sw-top-700", {
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".sw-top-pg-700",
+      clickable: true,
+      //   dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".sw-next-700",
+      prevEl: ".sw-prev-700",
+    },
+  });
+  //  <!-- 600px top swiper -->
+  var swiper600 = new Swiper(".sw-top-600", {
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".sw-top-pg-600",
+      clickable: true,
+      //   dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".sw-next-600",
+      prevEl: ".sw-prev-600",
+    },
+  });
+  //  <!-- 500px top swiper -->
+  var swiper500 = new Swiper(".sw-top-500", {
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".sw-top-pg-500",
+      clickable: true,
+      //   dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".sw-next-500",
+      prevEl: ".sw-prev-500",
+    },
+  });
   //  <!-- center swiper -->
   var swiper = new Swiper(".sw-centerbanner", {
     spaceBetween: 30,
