@@ -1099,6 +1099,7 @@
   }
   .footer-bottom {
     width: 100%;
+    height: 9%;
   }
   .aboutattrangs {
     position: absolute;
@@ -1449,5 +1450,303 @@
   }
   .day {
     font-size: 8px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: 305px;
+    height: 480px;
+  }
+  .review0:nth-child(2) {
+    display: none;
+  }
+  .review-contents {
+    width: 100% !important;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .reviewlayout {
+    /* display: block; */
+    width: 100% !important;
+    margin: auto;
+  }
+  .reviewlayout li {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .gradreviewname {
+    padding-left: 28px;
+    width: 30% !important;
+    display: inline-block;
+  }
+  .review0 a {
+    width: 80%;
+    height: 100%;
+  }
+  .review0 a img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    /* height: 135px; */
+    /* padding: px; */
+  }
+  .clothes {
+    font-size: 12px;
+  }
+  .grad {
+    font-size: 8px;
+  }
+  .grad1 {
+    font-size: 8px;
+  }
+  .reviewname {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 8px;
+  }
+  .star {
+    font-size: 8px;
+  }
+  .star1 {
+    font-size: 8px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 8px;
+  }
+  .day {
+    font-size: 8px;
+  }
+  .instagram .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .ins-section-top {
+    margin: auto;
+  }
+  .instagram-contents {
+    width: 80%;
+    margin: auto;
+  }
+  .instagram-contents ul {
+    margin: auto;
+    width: 100%;
+  }
+  .instagram-contents ul > li {
+    width: 100%;
+  }
+  .instagram-contents ul li:nth-child(8) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(7) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(6) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(5) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(4) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(3) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(2) {
+    display: none;
+  }
+  /* 푸터 */
+  .footer-top .inner {
+    width: 100%;
+  }
+  .footer-top {
+    width: 100%;
+    height: 420px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+  .aboutattrangs {
+    position: absolute;
+    top: 32px;
+    left: 45px;
+    width: 251px;
+    height: 135px;
+    white-space: nowrap;
+  }
+  .ft-title-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  .footer-span {
+    font-size: 9px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .footer-p {
+    font-size: 9px;
+    font-weight: 200;
+    color: #fff;
+  }
+  .aboutattrangs ul > li > a {
+    font-size: 9px;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+  }
+  .aboutattrangs ul li:nth-child(1) {
+    float: left;
+    padding-right: 8px;
+  }
+  .aboutattrangs ul li:nth-child(7) {
+    float: left;
+    padding-right: 8px;
+  }
+  .aboutattrangs ul li {
+    line-height: 15px;
+  }
+  .bankinfo {
+    position: absolute;
+    top: 168px;
+    left: 45px;
+    width: 117px;
+    height: 127px;
+    white-space: nowrap;
+  }
+  .bankinfo ul li {
+    line-height: 15px;
+  }
+  .bankinfo > ul > li:nth-child(4) {
+    padding-bottom: 10px;
+  }
+  .cscenter {
+    position: absolute;
+    top: 168px;
+    right: 25px;
+    width: 117px;
+    height: 127px;
+    white-space: nowrap;
+  }
+  .cscenter .number {
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .cscenter .footer-p {
+    line-height: 15px;
+    padding-top: 10px;
+  }
+  .number {
+    padding-bottom: 5px;
+  }
+  .cscenter a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid #999;
+    padding: 8px 5px;
+    margin-top: 6px;
+  }
+  .cscenter a > i {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .cscenter a > span {
+    font-size: 8px;
+    padding-left: 10px;
+  }
+  .social {
+    position: absolute;
+    top: 297px;
+    left: 45px;
+    width: 188px;
+    height: 84px;
+    white-space: nowrap;
+  }
+  .social .fa-brands {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 8px;
+  }
+  .returnexchange {
+    position: absolute;
+    top: 297px;
+    right: 14px;
+    width: 129px;
+    height: 65px;
+    white-space: nowrap;
+  }
+  .returnexchange .footer-p {
+    line-height: 15px;
+  }
+  .footer-bottom .inner {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ft-left {
+    display: flex;
+    align-items: center;
+  }
+  .ft-logo {
+    width: 67px;
+    height: 9px;
+  }
+  .ft-logo a img {
+    width: 67px;
+    height: 9px;
+  }
+  .copyright span {
+    padding-left: 20px;
+    font-size: 7px;
+    color: #494949;
+  }
+  .copyright span a {
+    text-decoration: none;
+    color: #494949;
+  }
+  .mobile1 {
+    position: absolute;
+    top: 386px;
+    right: 53px;
+    width: 215px;
+    height: 12px;
+    white-space: nowrap;
+  }
+  .mobile1 ul {
+    display: flex;
+    padding-top: 3px;
+  }
+  .mobile1 ul li {
+    display: flex;
+    padding-right: 20px;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .mobile1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .mobile {
+    display: none;
   }
 }
