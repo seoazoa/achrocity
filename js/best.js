@@ -40,149 +40,165 @@ window.onload = function () {
     var bestHeartFull = document.getElementById("best-heart-full1");
     // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
     if (bestHeart.style.display !== "none") {
-        bestHeart.style.display = "none";
-        bestHeartFull.style.display = "inline";
+      bestHeart.style.display = "none";
+      bestHeartFull.style.display = "inline";
     }
     // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
     else {
-        bestHeart.style.display = "inline";
-        bestHeartFull.style.display = "none";
+      bestHeart.style.display = "inline";
+      bestHeartFull.style.display = "none";
     }
   }
   // 하트를 클릭했을 때의 동작을 정의합니다.
   document
     .getElementById("best-hearts1")
     .addEventListener("click", function () {
-        togglebestHeartIcon(); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon(); // 하트 아이콘을 토글합니다.
     });
   // ============================== 모든 요소에 동일한 코드 적용
   function togglebestHeartIcon(bestHeartId) {
     // 현재 하트 아이콘의 상태를 확인합니다.
     var bestHeart = document.getElementById(bestHeartId);
     var bestHeartFull = document.getElementById(
-        bestHeartId.replace("heart", "heart-full")
+      bestHeartId.replace("heart", "heart-full")
     );
 
     // xi-heart-o가 보이는 경우(좋아요 상태가 아닌 경우) xi-heart를 보이도록 설정하고, xi-heart-o는 숨깁니다.
     if (bestHeart.style.display !== "none") {
-        bestHeart.style.display = "none";
-        bestHeartFull.style.display = "inline";
+      bestHeart.style.display = "none";
+      bestHeartFull.style.display = "inline";
     }
     // 그렇지 않으면(좋아요 상태인 경우) xi-heart를 숨기고 xi-heart-o를 보이도록 설정합니다.
     else {
-        bestHeart.style.display = "inline";
-        bestHeartFull.style.display = "none";
+      bestHeart.style.display = "inline";
+      bestHeartFull.style.display = "none";
     }
   }
   // 각 요소에 클릭 이벤트를 추가합니다.
   document
     .getElementById("best-hearts1")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart1"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart1"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts2")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart2"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart2"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts3")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart3"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart3"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts4")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts4")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts4")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart4"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts5")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart5"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart5"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts6")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart6"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart6"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts7")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart7"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart7"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts8")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart8"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart8"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts9")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart9"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart9"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts10")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart10"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart10"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts11")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart11"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart11"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts12")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart12"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart12"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts13")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart13"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart13"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts14")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart14"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart14"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts15")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart15"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart15"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts16")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart16"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart16"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts17")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart17"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart17"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts18")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart18"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart18"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts19")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart19"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart19"); // 하트 아이콘을 토글합니다.
     });
   document
     .getElementById("best-hearts20")
     .addEventListener("click", function () {
-        togglebestHeartIcon("best-heart20"); // 하트 아이콘을 토글합니다.
+      togglebestHeartIcon("best-heart20"); // 하트 아이콘을 토글합니다.
     });
+  // ===================================
+  // 각 색상 요소를 클릭할 때마다 토글되도록 설정
+const colors = document.querySelectorAll('.colors p');
+colors.forEach(color => {
+  let isClicked = false; // 초기 클릭 상태를 false로 설정
+  color.addEventListener('click', () => {
+    // 클릭 상태에 따라 효과를 추가하거나 제거합니다.
+    if (isClicked) {
+      color.style.outline = ''; // 클릭된 경우 효과를 제거합니다.
+    } else {
+      color.style.outline = '2px solid #5d5d5d'; // 클릭되지 않은 경우 효과를 추가합니다.
+    }
+    isClicked = !isClicked; // 클릭 상태를 토글합니다.
+  });
+});
+
 };

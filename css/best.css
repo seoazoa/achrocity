@@ -96,7 +96,7 @@ body {
   margin-top: 15px;
   display: flex;
   gap: 10px;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .size {
   margin-right: 20px;

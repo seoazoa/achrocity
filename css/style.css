@@ -868,6 +868,7 @@ body {
 /* 스타일 가이드 왼쪽 */
 .styling1 {
   height: 750px;
+  /* height: 100%; */
   box-shadow: 2px 4px 10px 3px rgb(219, 219, 219);
 }
 .styling-top {
