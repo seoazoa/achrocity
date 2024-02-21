@@ -1,6 +1,5 @@
 @charset "utf-8";
 @media all and (max-width: 1280px) {
-
   .focuson .inner {
     width: 90%;
   }
@@ -11,17 +10,17 @@
   .focuson-left {
     height: 41.66vw;
   }
-  .focuson-video{
+  .focuson-video {
     height: 41.66vw;
   }
-  .focuson-left ul li:nth-child(1){
-    font-size:26px;
+  .focuson-left ul li:nth-child(1) {
+    font-size: 26px;
   }
-  .focuson-left ul li:nth-child(2){
-    font-size:30px;
+  .focuson-left ul li:nth-child(2) {
+    font-size: 30px;
   }
-  .focuson-left ul li:nth-child(3){
-    font-size:18px;
+  .focuson-left ul li:nth-child(3) {
+    font-size: 18px;
   }
   .focuson-left::after {
     content: "";
@@ -31,24 +30,24 @@
     width: 38px;
     height: 8px;
     background-color: #ffe500;
-}
-.focuson-video a::after {
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background: url(../images/kv-movie.png) no-repeat center;
-  position: absolute;
-  top: 45%;
-  left: 54%;
-}
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+  }
 }
 
 @media all and (max-width: 1240px) {
   .review .inner {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .review0 {
     width: calc(100% / 5 - 12px);
@@ -113,7 +112,7 @@
   .instagram .inner {
     width: 100%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .ins-section-top {
     margin: auto;
@@ -132,15 +131,17 @@
     width: calc(100% / 4 - 12px);
   }
 }
+@media screen and (max-width: 1140px) {
+}
 @media screen and (max-width: 1118px) {
-  .focuson-left ul li:nth-child(1){
-    font-size:23px;
+  .focuson-left ul li:nth-child(1) {
+    font-size: 23px;
   }
-  .focuson-left ul li:nth-child(2){
-    font-size:25px;
+  .focuson-left ul li:nth-child(2) {
+    font-size: 25px;
   }
-  .focuson-left ul li:nth-child(3){
-    font-size:14px;
+  .focuson-left ul li:nth-child(3) {
+    font-size: 14px;
   }
   .focuson-left::after {
     content: "";
@@ -150,27 +151,27 @@
     width: 38px;
     height: 8px;
     background-color: #ffe500;
-}
-.focuson-video a::after {
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background: url(../images/kv-movie.png) no-repeat center;
-  position: absolute;
-  top: 45%;
-  left: 54%;
-}
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+  }
 }
 @media screen and (max-width: 1038px) {
-  .focuson-left ul li:nth-child(1){
-    font-size:20px;
+  .focuson-left ul li:nth-child(1) {
+    font-size: 20px;
   }
-  .focuson-left ul li:nth-child(2){
-    font-size:20px;
+  .focuson-left ul li:nth-child(2) {
+    font-size: 20px;
   }
-  .focuson-left ul li:nth-child(3){
-    font-size:14px;
+  .focuson-left ul li:nth-child(3) {
+    font-size: 14px;
   }
   .focuson-left::after {
     content: "";
@@ -180,24 +181,24 @@
     width: 38px;
     height: 8px;
     background-color: #ffe500;
-}
-.focuson-video a::after {
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background: url(../images/kv-movie.png) no-repeat center;
-  position: absolute;
-  top: 45%;
-  left: 54%;
-}
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .review .inner {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .review0 {
     width: calc(100% / 4 - 12px);
@@ -265,43 +266,65 @@
   .day {
     font-size: 13px;
   }
+  /* 동영상 */
+  .focuson-left ul li:nth-child(1) {
+    font-size: 20px;
+  }
+  .focuson-left ul li:nth-child(2) {
+    font-size: 20px;
+  }
+  .focuson-left ul li:nth-child(3) {
+    font-size: 12px;
+  }
+  .focuson-left::after {
+    content: "";
+    position: relative;
+    top: -81px;
+    right: 32px;
+    width: 33px;
+    height: 6px;
+    background-color: #ffe500;
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+  }
+  /* 인스타 */
   .instagram .inner {
     width: 100%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .ins-section-top {
     margin: auto;
-    padding-left: 230px;
   }
   .instagram-contents {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .instagram-contents ul {
     margin: auto;
-    width: 60%;
+    width: 100%;
   }
   .instagram-contents ul > li {
-    width: calc(100% / 2 - 12px);
-  }
-  .instagram-contents ul {
-    margin: auto;
-    width: 60%;
-  }
-  .instagram-contents ul > li {
-    width: calc(100% / 2 - 12px);
+    width: calc(100% / 4 - 12px);
   }
 }
 @media screen and (max-width: 918px) {
-  .focuson-left ul li:nth-child(1){
-    font-size:15px;
+  .focuson-left ul li:nth-child(1) {
+    font-size: 15px;
   }
-  .focuson-left ul li:nth-child(2){
-    font-size:18px;
+  .focuson-left ul li:nth-child(2) {
+    font-size: 18px;
   }
-  .focuson-left ul li:nth-child(3){
-    font-size:10px;
+  .focuson-left ul li:nth-child(3) {
+    font-size: 10px;
   }
   .focuson-left::after {
     content: "";
@@ -311,23 +334,23 @@
     width: 25px;
     height: 4px;
     background-color: #ffe500;
-}
-.focuson-video a::after {
-  content: "";
-  display: block;
-  width: 86px;
-  height: 86px;
-  background: url(../images/kv-movie.png) no-repeat center;
-  position: absolute;
-  top: 45%;
-  left: 54%;
-}
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 5vw;
+    height: 5vh;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+  }
 }
 @media screen and (max-width: 820px) {
   .review .inner {
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .review0 {
     width: calc(100% / 3 - 12px);
@@ -401,25 +424,193 @@
   .day {
     font-size: 14px;
   }
+  /* 인스타 */
+  .instagram .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .ins-section-top {
+    margin: auto;
+  }
+  .instagram-contents {
+    width: 100%;
+    margin: auto;
+  }
+  .instagram-contents ul {
+    margin: auto;
+    width: 100%;
+  }
   .instagram-contents ul > li {
-    width: calc(100% / 4 - 12px);
+    width: calc(100% / 3 - 12px);
+  }
+  .instagram-contents ul li:nth-child(8) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(7) {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
+  .clothes {
+    font-size: 14px;
+  }
+  .grad {
+    font-size: 12px;
+  }
+  .grad1 {
+    font-size: 12px;
+  }
+  .reviewname {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 12px;
+  }
+  .star {
+    font-size: 12px;
+  }
+  .star1 {
+    font-size: 12px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .day {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 16px;
+  }
+  .grad {
+    font-size: 14px;
+  }
+  .grad1 {
+    font-size: 14px;
+  }
+  .reviewname {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 14px;
+  }
+  .star {
+    font-size: 14px;
+  }
+  .star1 {
+    font-size: 14px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .day {
+    font-size: 14px;
+  }
+  /* 인스타 */
+  .instagram .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .ins-section-top {
+    margin: auto;
+  }
+  .instagram-contents {
+    width: 100%;
+    margin: auto;
+  }
+  .instagram-contents ul {
+    margin: auto;
+    width: 100%;
+  }
   .instagram-contents ul > li {
     width: calc(100% / 2 - 12px);
   }
-}
-@media screen and (max-width: 691px) {
-  .focuson-left ul li:nth-child(1){
-    font-size:13px;
+  .instagram-contents ul li:nth-child(8) {
+    display: none;
   }
-  .focuson-left ul li:nth-child(2){
-    font-size:18px;
+  .instagram-contents ul li:nth-child(7) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(6) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 699px) {
+  .focuson-left ul li:nth-child(1) {
+    font-size: 13px;
+  }
+  .focuson-left ul li:nth-child(2) {
+    font-size: 18px;
     line-height: 30px;
   }
-  .focuson-left ul li:nth-child(3){
-    font-size:8px;
+  .focuson-left ul li:nth-child(3) {
+    font-size: 8px;
   }
   .focuson-left::after {
     content: "";
@@ -429,5 +620,834 @@
     width: 20px;
     height: 4px;
     background-color: #ffe500;
+  }
 }
+@media screen and (max-width: 691px) {
+  .focuson-left ul li:nth-child(1) {
+    font-size: 13px;
+  }
+  .focuson-left ul li:nth-child(2) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .focuson-left ul li:nth-child(3) {
+    font-size: 8px;
+  }
+  .focuson-left::after {
+    content: "";
+    position: relative;
+    top: -57px;
+    right: 20px;
+    width: 20px;
+    height: 4px;
+    background-color: #ffe500;
+  }
+}
+@media screen and (max-width: 599px) {
+  .focuson-left {
+    display: none;
+  }
+  .focuson-video a::after {
+    content: "";
+    display: block;
+    width: 5vw;
+    height: 5vh;
+    background: url(../images/kv-movie.png) no-repeat center;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(3) {
+    display: none;
+  }
+  .review0:nth-child(4) {
+    display: none;
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 16px;
+  }
+  .grad {
+    font-size: 14px;
+  }
+  .grad1 {
+    font-size: 14px;
+  }
+  .reviewname {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 14px;
+  }
+  .star {
+    font-size: 14px;
+  }
+  .star1 {
+    font-size: 14px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .day {
+    font-size: 14px;
+  }
+  /* 인스타 */
+  .instagram .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .ins-section-top {
+    margin: auto;
+  }
+  .instagram-contents {
+    width: 100%;
+    margin: auto;
+  }
+  .instagram-contents ul {
+    margin: auto;
+    width: 100%;
+  }
+  .instagram-contents ul > li {
+    width: calc(100% / 2 - 12px);
+  }
+  .instagram-contents ul li:nth-child(8) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(7) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(6) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(5) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(4) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 507px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(3) {
+    display: none;
+  }
+  .review0:nth-child(4) {
+    display: none;
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 14px;
+  }
+  .grad {
+    font-size: 12px;
+  }
+  .grad1 {
+    font-size: 12px;
+  }
+  .reviewname {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 12px;
+  }
+  .star {
+    font-size: 12px;
+  }
+  .star1 {
+    font-size: 12px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 14px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .day {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 454px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(3) {
+    display: none;
+  }
+  .review0:nth-child(4) {
+    display: none;
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 12px;
+  }
+  .grad {
+    font-size: 10px;
+  }
+  .grad1 {
+    font-size: 10px;
+  }
+  .reviewname {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 10px;
+  }
+  .star {
+    font-size: 10px;
+  }
+  .star1 {
+    font-size: 10px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .day {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: 305px;
+    height: 480px;
+  }
+  .review0:nth-child(2) {
+    display: none;
+  }
+  .review-contents {
+    width: 100% !important;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .reviewlayout {
+    /* display: block; */
+    width: 100% !important;
+    margin: auto;
+  }
+  .reviewlayout li {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .gradreviewname {
+    padding-left: 28px;
+    width: 30% !important;
+    display: inline-block;
+  }
+  .review0 a {
+    width: 80%;
+    height: 100%;
+  }
+  .review0 a img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    /* height: 135px; */
+    /* padding: px; */
+  }
+  .clothes {
+    font-size: 12px;
+  }
+  .grad {
+    font-size: 8px;
+  }
+  .grad1 {
+    font-size: 8px;
+  }
+  .reviewname {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 8px;
+  }
+  .star {
+    font-size: 8px;
+  }
+  .star1 {
+    font-size: 8px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 8px;
+  }
+  .day {
+    font-size: 8px;
+  }
+  .instagram .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+  }
+  .ins-section-top {
+    margin: auto;
+  }
+  .instagram-contents {
+    width: 80%;
+    margin: auto;
+  }
+  .instagram-contents ul {
+    margin: auto;
+    width: 100%;
+  }
+  .instagram-contents ul > li {
+    width: 100%;
+  }
+  .instagram-contents ul li:nth-child(8) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(7) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(6) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(5) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(4) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(3) {
+    display: none;
+  }
+  .instagram-contents ul li:nth-child(2) {
+    display: none;
+  }
+  /* 푸터 */
+  footer {
+  }
+  .footer-top .inner {
+    width: 100%;
+  }
+  .footer-top {
+    width: 100%;
+    height: 420px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+  .aboutattrangs {
+    position: absolute;
+    top: 32px;
+    left: 45px;
+    width: 251px;
+    height: 135px;
+    white-space: nowrap;
+  }
+  .ft-title-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  .footer-span {
+    font-size: 9px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .footer-p {
+    font-size: 9px;
+    font-weight: 200;
+    color: #fff;
+  }
+  .aboutattrangs ul > li > a {
+    font-size: 9px;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+  }
+  .aboutattrangs ul li:nth-child(1) {
+    float: left;
+    padding-right: 8px;
+  }
+  .aboutattrangs ul li:nth-child(7) {
+    float: left;
+    padding-right: 8px;
+  }
+  .aboutattrangs ul li {
+    line-height: 15px;
+  }
+  .bankinfo {
+    position: absolute;
+    top: 168px;
+    left: 45px;
+    width: 117px;
+    height: 127px;
+    white-space: nowrap;
+  }
+  .bankinfo ul li {
+    line-height: 15px;
+  }
+  .bankinfo > ul > li:nth-child(4) {
+    padding-bottom: 10px;
+  }
+  .cscenter {
+    position: absolute;
+    top: 168px;
+    right: 55px;
+    width: 117px;
+    height: 127px;
+    white-space: nowrap;
+  }
+  .cscenter .number {
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .cscenter .footer-p {
+    line-height: 15px;
+    padding-top: 10px;
+  }
+  .number {
+    padding-bottom: 5px;
+  }
+  .cscenter a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid #999;
+    padding: 8px 5px;
+    margin-top: 6px;
+  }
+  .cscenter a > i {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .cscenter a > span {
+    font-size: 8px;
+    padding-left: 10px;
+  }
+  .social {
+    position: absolute;
+    top: 297px;
+    left: 45px;
+    width: 188px;
+    height: 84px;
+    white-space: nowrap;
+  }
+  .social .fa-brands {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 8px;
+  }
+  .returnexchange {
+    position: absolute;
+    top: 297px;
+    right: 44px;
+    width: 129px;
+    height: 65px;
+    white-space: nowrap;
+  }
+  .returnexchange .footer-p {
+    line-height: 15px;
+  }
+  .footer-bottom .inner {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ft-left {
+    display: flex;
+    align-items: center;
+  }
+  .ft-logo {
+    width: 67px;
+    height: 9px;
+  }
+  .ft-logo a img {
+    width: 67px;
+    height: 9px;
+  }
+  .copyright span {
+    padding-left: 20px;
+    font-size: 7px;
+    color: #494949;
+  }
+  .copyright span a {
+    text-decoration: none;
+    color: #494949;
+  }
+  .mobile1 {
+    position: absolute;
+    top: 386px;
+    right: 122px;
+    width: 190px;
+    height: 12px;
+    white-space: nowrap;
+  }
+  .mobile1 ul {
+    display: flex;
+    padding-top: 3px;
+  }
+  .mobile1 ul li {
+    display: flex;
+    padding-right: 20px;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .mobile1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 454px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(3) {
+    display: none;
+  }
+  .review0:nth-child(4) {
+    display: none;
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 12px;
+  }
+  .grad {
+    font-size: 10px;
+  }
+  .grad1 {
+    font-size: 10px;
+  }
+  .reviewname {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 10px;
+  }
+  .star {
+    font-size: 10px;
+  }
+  .star1 {
+    font-size: 10px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .day {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 347px) {
+  .review .inner {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  .review0 {
+    width: calc(100% / 2 - 12px);
+  }
+  .review0:nth-child(3) {
+    display: none;
+  }
+  .review0:nth-child(4) {
+    display: none;
+  }
+  .review0:nth-child(5) {
+    display: none;
+  }
+  .review0:nth-child(6) {
+    display: none;
+  }
+  .review0:nth-child(7) {
+    display: none;
+  }
+  .review0:nth-child(8) {
+    display: none;
+  }
+  .review0:nth-child(9) {
+    display: none;
+  }
+  .review0:nth-child(10) {
+    display: none;
+  }
+  .review-contents {
+    width: 100%;
+    margin: auto;
+  }
+  /* .section-top {
+    padding-left: 230px;
+  } */
+  .review ul {
+    width: 100%;
+    margin: auto;
+  }
+  .reviewsection > ul {
+    width: 100%;
+    margin: 0;
+  }
+  .review0 a {
+    width: 100%;
+  }
+  .review0 a img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .reviewsection {
+    height: 135px;
+    padding: 9px;
+  }
+  .clothes {
+    font-size: 10px;
+  }
+  .grad {
+    font-size: 8px;
+  }
+  .grad1 {
+    font-size: 8px;
+  }
+  .reviewname {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 8px;
+  }
+  .star {
+    font-size: 8px;
+  }
+  .star1 {
+    font-size: 8px;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 8px;
+  }
+  .day {
+    font-size: 8px;
+  }
 }
