@@ -1088,8 +1088,6 @@
     display: none;
   }
   /* 푸터 */
-  footer {
-  }
   .footer-top .inner {
     width: 100%;
   }
@@ -1104,7 +1102,7 @@
   .aboutattrangs {
     position: absolute;
     top: 32px;
-    left: 45px;
+    left: 20px;
     width: 251px;
     height: 135px;
     white-space: nowrap;

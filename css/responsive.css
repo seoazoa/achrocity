@@ -838,6 +838,9 @@
   }
 }
 @media all and (max-width: 760px) {
+  .inner {
+    padding: 0 20px;
+  }
   .topbanner {
     display: none;
   }
@@ -2553,128 +2556,133 @@
     column-gap: 22px;
   }
 }
+@media all and (max-width: 760px) {
+  .styling-list {
+    column-gap: 15px;
+  }
+}
 @media all and (max-width: 759px) {
   .styling-list {
-    column-gap: 20px;
+    column-gap: 13px;
   }
 }
 @media all and (max-width: 757px) {
   .styling-list {
-    column-gap: 18px;
+    column-gap: 11px;
   }
 }
 @media all and (max-width: 755px) {
   .styling-list {
-    column-gap: 68px;
+    column-gap: 48px;
   }
 }
 @media all and (max-width: 753px) {
   .styling-list {
-    column-gap: 66px;
+    column-gap: 46px;
   }
 }
 @media all and (max-width: 751px) {
   .styling-list {
-    column-gap: 64px;
+    column-gap: 44px;
   }
 }
 @media all and (max-width: 749px) {
   .styling-list {
-    column-gap: 62px;
+    column-gap: 42px;
   }
 }
 @media all and (max-width: 747px) {
   .styling-list {
-    column-gap: 60px;
+    column-gap: 40px;
   }
 }
 @media all and (max-width: 745px) {
   .styling-list {
-    column-gap: 58px;
+    column-gap: 38px;
   }
 }
 @media all and (max-width: 743px) {
   .styling-list {
-    column-gap: 56px;
+    column-gap: 36px;
   }
 }
 @media all and (max-width: 741px) {
   .styling-list {
-    column-gap: 54px;
+    column-gap: 34px;
   }
 }
 @media all and (max-width: 739px) {
   .styling-list {
-    column-gap: 52px;
+    column-gap: 32px;
   }
 }
 @media all and (max-width: 737px) {
   .styling-list {
-    column-gap: 50px;
+    column-gap: 30px;
   }
 }
 @media all and (max-width: 735px) {
   .styling-list {
-    column-gap: 48px;
+    column-gap: 28px;
   }
 }
 @media all and (max-width: 733px) {
   .styling-list {
-    column-gap: 46px;
+    column-gap: 26px;
   }
 }
 @media all and (max-width: 731px) {
   .styling-list {
-    column-gap: 44px;
+    column-gap: 24px;
   }
 }
 @media all and (max-width: 729px) {
   .styling-list {
-    column-gap: 42px;
+    column-gap: 22px;
   }
 }
 @media all and (max-width: 727px) {
   .styling-list {
-    column-gap: 40px;
+    column-gap: 20px;
   }
 }
 @media all and (max-width: 725px) {
   .styling-list {
-    column-gap: 38px;
+    column-gap: 18px;
   }
 }
 @media all and (max-width: 723px) {
   .styling-list {
-    column-gap: 36px;
+    column-gap: 16px;
   }
 }
 @media all and (max-width: 721px) {
   .styling-list {
-    column-gap: 34px;
+    column-gap: 14px;
   }
 }
 @media all and (max-width: 719px) {
   .styling-list {
-    column-gap: 32px;
+    column-gap: 12px;
   }
 }
 @media all and (max-width: 717px) {
   .styling-list {
-    column-gap: 30px;
+    column-gap: 10px;
   }
 }
 @media all and (max-width: 715px) {
   .styling-list {
-    column-gap: 28px;
+    column-gap: 8px;
   }
 }
 @media all and (max-width: 713px) {
   .styling-list {
-    column-gap: 26px;
+    column-gap: 6px;
   }
 }
 @media all and (max-width: 711px) {
   .styling-list {
-    column-gap: 24px;
+    column-gap: 4px;
   }
 }
