@@ -1242,6 +1242,7 @@ body {
 .instagram {
   width: 100%;
   height: 100%;
+  margin-bottom: 40px;
   /* margin-top: 40px; */
 }
 .instagram .inner {
@@ -1301,18 +1302,23 @@ body {
 }
 /* 푸터 */
 footer {
-  height: 400px;
-  margin-top: 40px;
+  height: 100%;
+  /* height: 400px; */
+  /* margin-top: 40px; */
 }
-
 .footer-top .inner {
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 .footer-top {
   width: 100%;
-  height: 350px;
+  /* height: 350px; */
+  height: 100%;
+  padding-bottom: 40px;
   background-color: #535353;
 }
 .footer-bottom {
@@ -1321,102 +1327,154 @@ footer {
   background-color: #c7c7c7;
 }
 .aboutattrangs {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
   top: 60px;
   left: 0px;
   width: 417px;
-  height: 205px;
+  height: 205px; */
   white-space: nowrap;
 }
+.footer-inner-list {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
 .bankinfo {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
   top: 60px;
   left: 472px;
   width: 202px;
-  height: 205px;
+  height: 205px; */
   white-space: nowrap;
 }
 .cscenter {
-  position: absolute;
+  /* position: absolute;
   top: 60px;
   right: 277px;
   width: 187px;
-  height: 220px;
+  height: 220px; */
+  display: flex;
+  flex-direction: column;
   white-space: nowrap;
 }
+.cscenter-list {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  gap: 5px;
+  line-height: 30px;
+}
+.social-return {
+  display: flex;
+  flex-direction: column;
+}
 .social {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
   top: 60px;
   right: 26px;
   width: 188px;
-  height: 84px;
+  height: 84px; */
   white-space: nowrap;
 }
+.social .social-icon {
+  display: flex;
+}
 .returnexchange {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
   top: 162px;
   right: 0px;
   width: 214px;
-  height: 120px;
+  height: 120px; */
   white-space: nowrap;
 }
 /* 폰트 공통 */
 .ft-title-name {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
+  padding-top: 50px;
   margin-bottom: 24px;
   color: #fff;
 }
 .footer-span {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #fff;
 }
 .footer-p {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
   color: #fff;
 }
 /* aboutattrangs */
 .aboutattrangs ul > li > a {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
   color: #fff;
   text-decoration: none;
+  /* position: relative; */
 }
 .aboutattrangs ul li {
-  line-height: 30px;
+  line-height: 35px;
 }
-.aboutattrangs ul li:nth-child(1) {
+.footer-name {
+  display: flex;
+  gap: 45px;
+}
+/* .aboutattrangs ul li:nth-child(1) {
   float: left;
   padding-right: 20px;
+  position: relative;
+} */
+.aboutattrangs .footer-name li:nth-child(1)::after {
+  content: "";
+  height: 14px;
+  border: 0.3px solid #8b8b8b;
+  position: absolute;
+  top: 100px;
+  left: 165px;
 }
-.aboutattrangs ul li:nth-child(7) {
-  float: left;
-  padding-right: 20px;
+.tel-email {
+  display: flex;
+  gap: 0 45px;
+}
+.aboutattrangs .tel-email li:nth-child(1)::after {
+  content: "";
+  height: 14px;
+  border: 0.3px solid #8b8b8b;
+  position: absolute;
+  bottom: 10px;
+  left: 120px;
 }
 /* bank info */
 .bankinfo > ul > li > .footer-p {
   padding-left: 2px;
 }
 .bankinfo > ul > li {
-  line-height: 30px;
+  line-height: 35px;
 }
 .bankinfo > ul > li:nth-child(4) {
   padding-bottom: 34px;
 }
 /* CS CENTER */
 .cscenter .number {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   color: #fff;
 }
 .cscenter .footer-p {
-  line-height: 30px;
-  padding-top: 10px;
+  /* line-height: 10px; */
+  /* padding-top: 10px; */
 }
 .number {
-  padding-bottom: 20px;
+  /* padding-bottom: 5px; */
 }
 .cscenter a {
   color: #fff;
@@ -1424,21 +1482,23 @@ footer {
   display: flex;
   align-items: center;
   border: 2px solid #999;
-  padding: 10px 8px;
-  margin-top: 23px;
+  padding: 10px 6px;
+  /* margin-top: 45px; */
+  position: absolute;
+  bottom: 0px;
 }
 .cscenter a > i {
   padding-left: 5px;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .cscenter a > span {
-  font-size: 13px;
-  padding-left: 16px;
+  font-size: 1.3rem;
+  padding-left: 12px;
 }
 /* SOCIAL */
 .social .fa-brands {
   color: #fff;
-  font-size: 36px;
+  font-size: 3.6rem;
   padding-right: 8px;
 }
 /* RETURN/EXCHANGE */
@@ -1446,19 +1506,24 @@ footer {
   line-height: 30px;
 }
 /* footer-bottom */
+.footer-bottom {
+  width: 100%;
+}
 .footer-bottom .inner {
-  height: 50px;
+  /* height: 50px; */
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .ft-left {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .ft-logo {
-  width: 118px;
-  height: 15px;
+  /* width: 118px; */
+  /* height: 15px; */
 }
 .ft-logo a img {
   width: 100%;
@@ -1466,7 +1531,8 @@ footer {
 }
 .copyright span {
   padding-left: 20px;
-  font-size: 16px;
+  white-space: nowrap;
+  font-size: 1.6rem;
   color: #494949;
 }
 .copyright span a {
@@ -1474,20 +1540,41 @@ footer {
   color: #494949;
 }
 .mobile {
-  width: 250px;
-  height: 18px;
+  /* width: 250px; */
+  /* height: 18px; */
 }
 .mobile ul {
   display: flex;
-  padding-top: 3px;
+  /* padding-top: 3px; */
+}
+.mobile ul li:not(:last-child) {
+  padding-right: 20px;
 }
 .mobile ul li {
   display: flex;
-  padding-right: 20px;
-  font-size: 12px;
+  /* padding-right: 20px; */
+  font-size: 1.2rem;
   font-weight: bold;
 }
 .mobile ul li a {
   text-decoration: none;
   color: #535353;
+}
+.mobile1 > ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+.mobile1 > ul > li > a{
+  font-size: 1.5rem;
+  color: #fff;
+}
+.mobile1{
+  display: none;
+}
+.mobile1{
+  width: 100%;
 }
