@@ -14,13 +14,13 @@
     height: 41.66vw;
   }
   .focuson-left ul li:nth-child(1) {
-    font-size: 26px;
+    font-size: 2.6rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .focuson-left::after {
     content: "";
@@ -78,35 +78,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 11px;
+    font-size: 1.1rem;
   }
   .grad {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .grad1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewname {
-    font-size: 10px;
+    font-size: 1rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .name {
-    font-size: 9px;
+    font-size: 0.9rem;
   }
   .day {
-    font-size: 9px;
+    font-size: 0.9rem;
   }
   .instagram .inner {
     width: 100%;
@@ -142,13 +142,13 @@
 }
 @media screen and (max-width: 1118px) {
   .focuson-left ul li:nth-child(1) {
-    font-size: 23px;
+    font-size: 2.3rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .focuson-left::after {
     content: "";
@@ -206,13 +206,13 @@
 }
 @media screen and (max-width: 1038px) {
   .focuson-left ul li:nth-child(1) {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .focuson-left::after {
     content: "";
@@ -314,45 +314,45 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .grad1 {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .reviewname {
-    font-size: 13px;
+    font-size: 1.3rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .star {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .star1 {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .name {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .day {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   /* 동영상 */
   .focuson-left ul li:nth-child(1) {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .focuson-left::after {
     content: "";
@@ -476,13 +476,13 @@
 }
 @media screen and (max-width: 918px) {
   .focuson-left ul li:nth-child(1) {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .focuson-left::after {
     content: "";
@@ -609,35 +609,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 16px;
+    font-size: 1.45rem;
   }
   .grad {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewname {
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
   .name {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .day {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   /* 인스타 */
   .instagram .inner {
@@ -677,35 +677,35 @@
 }
 @media screen and (max-width: 768px) {
   .clothes {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .grad1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .reviewname {
-    font-size: 12px;
+    font-size: 1.2rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .star {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .star1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .name {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .day {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 760px) {
@@ -790,35 +790,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .grad {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewname {
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewsection .reviewsubstance {
     font-size: 16px;
   }
   .name {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .day {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   /* 인스타 */
   .instagram .inner {
@@ -855,14 +855,14 @@
 }
 @media screen and (max-width: 699px) {
   .focuson-left ul li:nth-child(1) {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .focuson-left ul li:nth-child(2) {
     font-size: 18px;
     line-height: 30px;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .focuson-left::after {
     content: "";
@@ -876,14 +876,14 @@
 }
 @media screen and (max-width: 691px) {
   .focuson-left ul li:nth-child(1) {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
   .focuson-left ul li:nth-child(2) {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 30px;
   }
   .focuson-left ul li:nth-child(3) {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .focuson-left::after {
     content: "";
@@ -1144,35 +1144,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .grad {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewname {
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .star1 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .name {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .day {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   /* 인스타 */
   .instagram .inner {
@@ -1273,35 +1273,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .grad {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .grad1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .reviewname {
-    font-size: 12px;
+    font-size: 1.2rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .star {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .star1 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .name {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .day {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 460px) {
@@ -1408,35 +1408,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .grad {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .grad1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewname {
-    font-size: 10px;
+    font-size: 1rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .name {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .day {
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 430px) {
@@ -1547,12 +1547,12 @@
     margin: auto;
   }
   .reviewlayout li {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
   }
   .gradreviewname {
-    padding-left: 28px;
+    padding-left: 0px;
     width: 30% !important;
     display: inline-block;
   }
@@ -1564,40 +1564,36 @@
     width: 80%;
     margin: 0 auto;
   }
-  .reviewsection {
-    /* height: 135px; */
-    /* padding: px; */
-  }
   .clothes {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .grad {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .grad1 {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .reviewname {
-    font-size: 8px;
+    font-size: 0.8rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .star {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .star1 {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .name {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .day {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   .instagram .inner {
     width: 100%;
@@ -1608,7 +1604,7 @@
     margin: auto;
   }
   .instagram-contents {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .instagram-contents ul {
@@ -1916,35 +1912,35 @@
     padding: 9px;
   }
   .clothes {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .grad {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .grad1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewname {
-    font-size: 10px;
+    font-size: 1rem;
     padding-left: 5px;
   }
   .reviewname1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .star1 {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .reviewsection .reviewsubstance {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .name {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .day {
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 347px) {
@@ -2006,7 +2002,7 @@
     height: 135px;
     padding: 9px;
   }
-  .clothes {
+  /* .clothes {
     font-size: 10px;
   }
   .grad {
@@ -2036,304 +2032,6 @@
   }
   .day {
     font-size: 8px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .review .inner {
-    width: 100%;
-    height: auto;
-    /* background-color: aquamarine; */
-  }
-  .review0 {
-    width: 305px;
-    height: 480px;
-  }
-  .review0:nth-child(2) {
-    display: none;
-  }
-  .review-contents {
-    width: 100% !important;
-    margin: auto;
-  }
-  /* .section-top {
-    padding-left: 230px;
-  } */
-  .reviewlayout {
-    /* display: block; */
-    width: 100% !important;
-    margin: auto;
-  }
-  .reviewlayout li {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-  }
-  .gradreviewname {
-    padding-left: 28px;
-    width: 30% !important;
-    display: inline-block;
-  }
-  .review0 a {
-    width: 80%;
-    height: 100%;
-  }
-  .review0 a img {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .reviewsection {
-    /* height: 135px; */
-    /* padding: px; */
-  }
-  .clothes {
-    font-size: 12px;
-  }
-  .grad {
-    font-size: 8px;
-  }
-  .grad1 {
-    font-size: 8px;
-  }
-  .reviewname {
-    font-size: 8px;
-    padding-left: 5px;
-  }
-  .reviewname1 {
-    font-size: 8px;
-  }
-  .star {
-    font-size: 8px;
-  }
-  .star1 {
-    font-size: 8px;
-  }
-  .reviewsection .reviewsubstance {
-    font-size: 10px;
-  }
-  .name {
-    font-size: 8px;
-  }
-  .day {
-    font-size: 8px;
-  }
-  .instagram .inner {
-    width: 100%;
-    height: auto;
-    /* background-color: aqua; */
-  }
-  .ins-section-top {
-    margin: auto;
-  }
-  .instagram-contents {
-    width: 80%;
-    margin: auto;
-  }
-  .instagram-contents ul {
-    margin: auto;
-    width: 100%;
-  }
-  .instagram-contents ul > li {
-    width: 100%;
-  }
-  .instagram-contents ul li:nth-child(8) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(7) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(6) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(5) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(4) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(3) {
-    display: none;
-  }
-  .instagram-contents ul li:nth-child(2) {
-    display: none;
-  }
-  /* 푸터 */
-  /* .footer-top .inner {
-    width: 100%;
-  }
-  .footer-top {
-    width: 100%;
-    height: 420px;
-  }
-  .footer-bottom {
-    width: 100%;
-  }
-  .aboutattrangs {
-    position: absolute;
-    top: 32px;
-    left: 45px;
-    width: 251px;
-    height: 135px;
-    white-space: nowrap;
-  } */
-  /* .ft-title-name {
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 6px;
-    color: #fff;
-  } */
-  /* .footer-span {
-    font-size: 9px;
-    font-weight: 400;
-    color: #fff;
-  }
-  .footer-p {
-    font-size: 9px;
-    font-weight: 200;
-    color: #fff;
-  } */
-  /* .aboutattrangs ul > li > a {
-    font-size: 9px;
-    font-weight: 200;
-    color: #fff;
-    text-decoration: none;
-  } */
-  /* .aboutattrangs ul li:nth-child(1) {
-    float: left;
-    padding-right: 8px;
-  }
-  .aboutattrangs ul li:nth-child(7) {
-    float: left;
-    padding-right: 8px;
-  }
-  .aboutattrangs ul li {
-    line-height: 15px;
-  }
-  .bankinfo {
-    position: absolute;
-    top: 168px;
-    left: 45px;
-    width: 117px;
-    height: 127px;
-    white-space: nowrap;
-  }
-  .bankinfo ul li {
-    line-height: 15px;
-  }
-  .bankinfo > ul > li:nth-child(4) {
-    padding-bottom: 10px;
-  }
-  .cscenter {
-    position: absolute;
-    top: 168px;
-    right: 25px;
-    width: 117px;
-    height: 127px;
-    white-space: nowrap;
-  }
-  .cscenter .number {
-    font-size: 9px;
-    font-weight: 500;
-    color: #fff;
-  }
-  .cscenter .footer-p {
-    line-height: 15px;
-    padding-top: 10px;
-  }
-  .number {
-    padding-bottom: 5px;
-  }
-  .cscenter a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    border: 2px solid #999;
-    padding: 8px 5px;
-    margin-top: 6px;
-  } */
-  /* .cscenter a > i {
-    padding-left: 5px;
-    font-size: 20px;
-  }
-  .cscenter a > span {
-    font-size: 8px;
-    padding-left: 10px;
-  } */
-  /* .social {
-    position: absolute;
-    top: 297px;
-    left: 45px;
-    width: 188px;
-    height: 84px;
-    white-space: nowrap;
-  } */
-  /* .social .fa-brands {
-    color: #fff;
-    font-size: 20px;
-    padding-right: 8px;
-  } */
-  /* .returnexchange {
-    position: absolute;
-    top: 297px;
-    right: 14px;
-    width: 129px;
-    height: 65px;
-    white-space: nowrap;
-  }
-  .returnexchange .footer-p {
-    line-height: 15px;
-  } */
-  /* .footer-bottom .inner {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .ft-left {
-    display: flex;
-    align-items: center;
-  }
-  .ft-logo {
-    width: 67px;
-    height: 9px;
-  }
-  .ft-logo a img {
-    width: 67px;
-    height: 9px;
-  } */
-  /* .copyright span {
-    padding-left: 20px;
-    font-size: 7px;
-    color: #494949;
-  }
-  .copyright span a {
-    text-decoration: none;
-    color: #494949;
-  } */
-  /* .mobile1 {
-    position: absolute;
-    top: 386px;
-    right: 53px;
-    width: 215px;
-    height: 12px;
-    white-space: nowrap;
-  }
-  .mobile1 ul {
-    display: flex;
-    padding-top: 3px;
-  }
-  .mobile1 ul li {
-    display: flex;
-    padding-right: 20px;
-    font-size: 8px;
-    font-weight: bold;
-  }
-  .mobile1 ul li a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  .mobile {
-    display: none;
   } */
 }
 @media screen and (max-width: 570px) {
@@ -2354,6 +2052,12 @@
     font-size: 1.4rem;
     padding-left: 5px;
   }
+  .clothes {
+    font-size: 1.5rem;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 540px) {
   .social-return {
@@ -2369,10 +2073,41 @@
   .social-return {
     gap: 0 70px;
   }
-    .copyright span {
-      font-size: 1.3rem;
-    }
+  .copyright span {
+    font-size: 1.3rem;
   }
+  .clothes {
+    font-size: 1.4rem;
+  }
+  .grad {
+    font-size: 1.3rem;
+  }
+  .grad1 {
+    font-size: 1.3rem;
+  }
+  .reviewname {
+    font-size: 1.3rem;
+    padding-left: 5px;
+  }
+  .reviewname1 {
+    font-size: 1.3rem;
+  }
+  .star {
+    font-size: 1.3rem;
+  }
+  .star1 {
+    font-size: 1.3rem;
+  }
+  .reviewsection .reviewsubstance {
+    font-size: 1.4rem;
+  }
+  .name {
+    font-size: 1.3rem;
+  }
+  .day {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 510px) {
   .social-return {
     gap: 0 60px;
@@ -2418,7 +2153,7 @@
 }
 @media screen and (max-width: 410px) {
   .copyright span {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
   .ft-logo a img {
     width: 100%;
@@ -2429,4 +2164,41 @@
   .social-return {
     gap: 0 10px;
   }
+}
+@media screen and (max-width: 817px) {
+  .centerbanner {
+    display: none;
+  }
+  .centerbanner-817 {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .centerbanner-817 {
+    display: none;
+  }
+  .centerbanner-550 {
+    display: block;
+  }
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+}
+@media screen and (max-width: 450px) {
+  .centerbanner-550 {
+    display: none;
+  }
+  .centerbanner-450 {
+    display: block;
+  }
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #fff;
+  
+}
 }
