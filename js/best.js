@@ -1,4 +1,26 @@
 window.onload = function () {
+  // ====================================== 메뉴 창
+  let nav = document.querySelector(".mb-menu");
+  let btMenu = document.querySelector(".mb-header-menu");
+  let navClose = document.querySelector(".nav-close");
+  btMenu.addEventListener("click", () => {
+    nav.classList.add("mb-menu-active");
+  });
+  navClose.addEventListener("click", function () {
+    nav.classList.remove("mb-menu-active");
+  });
+  // ======================================== 언어 펼침 기능
+  const langWord = document.querySelector(".language-word");
+  const language = document.querySelector(".language");
+  const languageLi = document.querySelector(".language li");
+  langWord.addEventListener("click", function () {
+    language.classList.toggle("language-box-active");
+  });
+  // css의 transition: all 0.5s; 자바스크립트 기능
+  setTimeout(function () {
+    languageLi.style.transition = "all 0.5s";
+  });
+  // ====================================================
   // top 버튼 스크롤 기능
   var topBtn = document.getElementById("top-btn");
   var downBtn = document.getElementById("down-btn");
